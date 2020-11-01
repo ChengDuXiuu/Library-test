@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<!-- saved from url=(0016)http://localhost -->
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <title>TSN</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        #content-info{
+            width: auto;
+            margin: 0 auto;
+            text-align: center;
+        }
+        #author-info{
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        #title{
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            padding-top: 10px;
+            margin-bottom: 2px;
+            font-size: 34px;
+            color: #505050;
+        }
+        .text{
+            white-space:nowrap;
+            text-overflow: ellipsis;
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 2px;
+            font-size: 20px;
+            color: #8c8c8c;
+        }
+        #navBar{
+            width: auto;
+            height: auto;
+            position: fixed;
+            right:0;
+            bottom: 0;
+            background-color: #f0f3f4;
+            overflow-y: auto;
+            text-align: center;
+        }
+        #svg-container{
+            width: 100%;
+            overflow-x: scroll;
+            min-width: 0px;
+            margin: 0 10px;
+        }
+        #nav-thumbs{
+            overflow-y: scroll;
+            padding: 0 5px;
+        }
+        .nav-thumb{
+            position: relative;
+            margin: 10px auto;
+        }
+        .nav-thumb >p{
+            text-align: center;
+            font-size: 12px;
+            margin: 4px 0 0 0;
+        }
+        .nav-thumb >div{
+            position: relative;
+            display: inline-block;
+            border: 1px solid #c6cfd5;
+        }
+        .nav-thumb img{
+            display: block;
+        }
+        #main-content{
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #d0cfd8;
+            display: flex;
+            height: auto;
+            flex-flow: row wrap;
+            text-align:center;
+        }
+        #svg-container >svg{
+            display: block;
+            margin:10px auto;
+            margin-bottom: 0;
+        }
+        #copyright{
+            bottom: 0;
+            left: 50%;
+            margin: 5px auto;
+            font-size: 16px;
+            color: #515151;
+        }
+        #copyright >a{
+            text-decoration: none;
+            color: #77C;
+        }
+        .number{
+            position: absolute;
+            top:0;
+            left:0;
+            border-top:22px solid #08a1ef;
+            border-right: 22px solid transparent;
+        }
+        .pagenum{
+            font-size: 12px;
+            color: #fff;
+            position: absolute;
+            top: -23px;
+            left: 2px;
+        }
+            #navBar::-webkit-scrollbar{
+            width: 8px;
+            background-color: #f5f5f5;
+        }
+            #navBar::-webkit-scrollbar-track{
+            -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.3);
+            border-radius: 8px;
+            background-color: #fff;
+        }
+            #navBar::-webkit-scrollbar-thumb{
+            border-radius: 8px;
+            -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.3);
+            background-color: #6b6b70;
+        }
+        #navBar::-webkit-scrollbar-thumb:hover{
+            background-color: #4a4a4f;
+        }
+</style>
+  </head>
+  <body>
+    <div id="main-area">
+      <div id="content-info">
+        <div id="content-info">
+          <div id="title">TSN</div>
+        </div>
+        <div id="author-info">
+          <div class="text" id="author-name">gao17</div>
+          <div class="text" id="share-time">2019-10-20</div>
+        </div>
+      </div>
+      <div id="main-content">
+        <div id="svg-container"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" ed:vSpacing="20" height="802" preserveAspectRadio="xMinYMin meet" ed:hSpacing="30" xmlns="http://www.w3.org/2000/svg" ed:name="Page-1" id="page1" viewBox="0 0 1562 802" width="1562" xmlns:ed="http://www.edrawsoft.cn/xml/2017/SVGExtensions/">
+    <style type="text/css"><![CDATA[
+g[ed\:togtopicid],g[ed\:hyperlink],g[ed\:comment],g[ed\:note] {cursor:pointer;}
+g[id] {-moz-user-select: none;-ms-user-select: none;user-select: none;}
+svg text::selection,svg tspan::selection{background-color: #4285f4;color: #ffffff;fill: #ffffff;}
+.st55 {fill:#0cbaaf;font-family:微软雅黑;font-size:10pt}
+.st58 {fill:#2db7ca;font-family:宋体;font-size:10pt}
+.st54 {fill:#2db7ca;font-family:微软雅黑;font-size:10pt}
+.st59 {fill:#35d0e6;font-family:宋体;font-size:10pt}
+.st57 {fill:#87b335;font-family:微软雅黑;font-size:10pt}
+.st63 {fill:#8e74c2;font-family:宋体;font-size:10pt}
+.st60 {fill:#c00000}
+.st56 {fill:#cc9677;font-family:微软雅黑;font-size:10pt}
+.st61 {fill:#d979b0;font-family:宋体;font-size:10pt}
+.st62 {fill:#ffffff;font-family:宋体;font-size:12pt}
+.st53 {fill:#ffffff;font-family:微软雅黑;font-size:12pt}
+.st52 {fill:#ffffff;font-family:微软雅黑;font-size:14pt}
+]]></style>
+    <defs>
+        <linearGradient y1="0%" y2="100%" x1="0%" x2="0%" id="lg2">
+            <stop offset="0" stop-color="#ffffff"/>
+            <stop offset="0.25" stop-color="#f0f5f0"/>
+            <stop offset="0.75" stop-color="#e1ebe1"/>
+            <stop offset="1" stop-color="#c8d7c8"/>
+        </linearGradient>
+    </defs>
+    <rect x="0" fill="#ffffff" height="802" y="0" width="1562"/>
+    <path ed:tosuperid="102" fill="#35d0e6" d="M-24.8,71.5C-25.6,73.9,-24.6,76,-22.8,76.6C-20.9,77.2,-18.8,76.1,-18.1,73.7C-17.5,71.4,-16.8,69.1,-16.2,66.8C-15.6,64.5,-15,62.2,-14.5,59.9C-14,57.5,-13.5,55.2,-13.1,52.9C-12.6,50.6,-12.2,48.3,-11.8,46C-11.4,43.7,-11,41.4,-10.6,39C-10.2,36.7,-9.9,34.4,-9.5,32.1C-9.2,29.8,-8.8,27.5,-8.5,25.1C-8.2,22.8,-7.9,20.5,-7.5,18.2C-7.2,15.9,-6.9,13.6,-6.6,11.3C-6.3,8.9,-6,6.6,-5.6,4.3C-5.3,2,-5,-0.3,-4.7,-2.6C-4.3,-4.9,-4,-7.2,-3.7,-9.5C-3.3,-11.8,-3,-14.1,-2.6,-16.4C-2.3,-18.7,-1.9,-21,-1.5,-23.3C-1.1,-25.6,-0.7,-27.9,-0.3,-30.2C0.1,-32.5,0.6,-34.7,1.1,-37C1.5,-39.3,2,-41.6,2.5,-43.8C3,-46.1,3.6,-48.3,4.2,-50.6C4.7,-52.8,5.4,-55.1,6,-57.3C6.7,-59.5,7.4,-61.7,8.1,-63.9C8.9,-66.1,9.7,-68.3,10.5,-70.4C11.4,-72.6,12.3,-74.7,13.3,-76.8C14.3,-78.9,15.4,-80.9,16.6,-82.9C17.7,-84.9,19,-86.8,20.3,-88.7C21.7,-90.6,23.1,-92.4,24.7,-94C26.3,-95.7,28,-97.3,29.8,-98.7C31.6,-100.2,33.6,-101.4,35.6,-102.5C37.6,-103.6,39.7,-104.6,42,-105.3C44.2,-106,46.5,-106.6,48.7,-106.9C51,-107.3,53.2,-107.4,55.4,-107.5C53.2,-107.5,51,-107.4,48.7,-107.2C46.4,-106.9,44.1,-106.4,41.8,-105.7C39.6,-105.1,37.4,-104.2,35.3,-103.2C33.2,-102.1,31.1,-100.9,29.2,-99.5C27.3,-98.1,25.6,-96.5,23.9,-94.9C22.2,-93.2,20.7,-91.4,19.2,-89.5C17.8,-87.7,16.4,-85.7,15.2,-83.7C13.9,-81.7,12.7,-79.7,11.7,-77.6C10.6,-75.5,9.6,-73.4,8.6,-71.2C7.7,-69.1,6.8,-66.9,5.9,-64.7C5.1,-62.5,4.3,-60.3,3.6,-58.1C2.8,-55.8,2.1,-53.6,1.5,-51.3C0.8,-49.1,0.2,-46.8,-0.4,-44.5C-1,-42.3,-1.6,-40,-2.1,-37.7C-2.7,-35.4,-3.2,-33.2,-3.7,-30.9C-4.2,-28.6,-4.7,-26.3,-5.2,-24C-5.6,-21.7,-6.1,-19.4,-6.5,-17.1C-7,-14.8,-7.4,-12.5,-7.8,-10.2C-8.2,-7.9,-8.6,-5.6,-9,-3.3C-9.4,-1,-9.8,1.3,-10.2,3.6C-10.6,5.9,-11,8.2,-11.4,10.5C-11.8,12.8,-12.2,15.1,-12.6,17.4C-13,19.7,-13.4,22,-13.8,24.3C-14.2,26.6,-14.6,28.9,-15.1,31.2C-15.5,33.5,-15.9,35.7,-16.4,38C-16.8,40.3,-17.3,42.6,-17.7,44.8C-18.2,47.1,-18.7,49.4,-19.2,51.6C-19.8,53.9,-20.3,56.1,-20.9,58.3C-21.5,60.6,-22.1,62.8,-22.7,65C-23.4,67.2,-24.1,69.3,-24.8,71.5z" ed:parentid="101" stroke-linecap="round" transform="matrix(1,0,0,1,501,293)" stroke-linejoin="round" stroke="#35d0e6" id="103"/>
+    <path ed:tosuperid="104" fill="#f68ac8" d="M-6.4,-9.7C-8.4,-11.3,-10.8,-10.7,-11.8,-9.1C-12.9,-7.5,-12.4,-5.2,-10.3,-3.9C-8.3,-2.7,-6.3,-1.5,-4.4,-0.3C-2.4,0.9,-0.4,2.2,1.5,3.5C3.5,4.7,5.5,6,7.5,7.2C9.5,8.5,11.5,9.7,13.5,10.9C15.6,12.1,17.7,13.2,19.8,14.3C21.9,15.4,24.1,16.4,26.3,17.3C28.5,18.2,30.7,19,33,19.7C35.3,20.4,37.6,21,39.9,21.4C42.1,21.9,44.3,22.2,46.9,22.4C49.4,22.5,52.4,22.6,53.9,22.6C55.4,22.6,55.4,22.5,55.4,22.5C55.4,22.5,55.4,22.6,53.9,22.4C52.4,22.3,49.5,22,47,21.6C44.5,21.1,42.4,20.6,40.2,19.9C38.1,19.3,35.9,18.5,33.7,17.6C31.6,16.7,29.5,15.7,27.5,14.7C25.5,13.6,23.5,12.4,21.6,11.2C19.6,10,17.7,8.7,15.8,7.3C14,6,12.1,4.6,10.3,3.2C8.5,1.8,6.6,0.3,4.8,-1.1C3,-2.6,1.1,-4,-0.7,-5.5C-2.6,-6.9,-4.5,-8.3,-6.4,-9.7z" ed:parentid="101" stroke-linecap="round" transform="matrix(1,0,0,1,501,423)" stroke-linejoin="round" stroke="#f68ac8" id="105"/>
+    <path ed:tosuperid="106" fill="#a284dc" d="M-19.8,-96.2C-20.5,-98.6,-22.5,-99.7,-24.4,-99.2C-26.2,-98.6,-27.3,-96.6,-26.5,-94.2C-25.9,-92,-25.2,-89.8,-24.6,-87.6C-24,-85.4,-23.5,-83.1,-23,-80.9C-22.5,-78.7,-22,-76.4,-21.5,-74.1C-21.1,-71.9,-20.6,-69.6,-20.2,-67.3C-19.8,-65.1,-19.4,-62.8,-19.1,-60.5C-18.7,-58.2,-18.3,-55.9,-18,-53.6C-17.6,-51.3,-17.3,-49,-17,-46.7C-16.7,-44.4,-16.4,-42.1,-16.1,-39.8C-15.8,-37.5,-15.5,-35.2,-15.2,-32.9C-14.9,-30.5,-14.6,-28.2,-14.3,-25.9C-14.1,-23.6,-13.8,-21.3,-13.5,-19C-13.2,-16.7,-13,-14.3,-12.7,-12C-12.4,-9.7,-12.2,-7.4,-11.9,-5.1C-11.6,-2.7,-11.3,-0.4,-11,1.9C-10.8,4.2,-10.5,6.5,-10.2,8.8C-9.9,11.2,-9.6,13.5,-9.3,15.8C-9,18.1,-8.7,20.4,-8.3,22.8C-8,25.1,-7.7,27.4,-7.3,29.7C-7,32,-6.6,34.3,-6.2,36.6C-5.9,38.9,-5.5,41.3,-5.1,43.6C-4.6,45.9,-4.2,48.2,-3.8,50.5C-3.3,52.8,-2.8,55.1,-2.4,57.4C-1.9,59.6,-1.3,61.9,-0.8,64.2C-0.2,66.5,0.3,68.8,1,71C1.6,73.3,2.2,75.5,2.9,77.8C3.6,80,4.3,82.3,5.1,84.5C5.9,86.7,6.7,88.9,7.6,91.1C8.5,93.2,9.5,95.4,10.5,97.5C11.5,99.6,12.6,101.7,13.8,103.7C15,105.8,16.2,107.8,17.6,109.7C19,111.6,20.4,113.5,22,115.2C23.6,117,25.3,118.6,27.1,120.1C28.9,121.6,30.8,123,32.8,124.2C34.8,125.4,37,126.5,39.1,127.3C41.3,128.1,43.4,128.8,45.9,129.2C48.4,129.6,51.2,129.9,52.9,130C54.5,130.1,54.9,130,55.4,130C54.9,130,54.5,130.1,52.9,129.9C51.2,129.8,48.4,129.4,46,128.9C43.5,128.4,41.4,127.7,39.3,126.9C37.2,126,35.1,124.9,33.1,123.7C31.2,122.4,29.3,121,27.6,119.5C25.9,118,24.3,116.3,22.8,114.5C21.3,112.8,19.9,110.9,18.6,109C17.3,107.1,16.1,105.1,15,103C13.9,101,12.9,98.9,12,96.8C11,94.7,10.1,92.6,9.3,90.4C8.5,88.2,7.7,86,7,83.8C6.3,81.6,5.6,79.4,5,77.2C4.4,74.9,3.8,72.7,3.3,70.4C2.7,68.2,2.2,65.9,1.7,63.6C1.2,61.4,0.8,59.1,0.4,56.8C-0.1,54.5,-0.5,52.2,-0.9,49.9C-1.2,47.6,-1.6,45.4,-1.9,43.1C-2.3,40.8,-2.6,38.4,-2.9,36.1C-3.2,33.8,-3.5,31.5,-3.8,29.2C-4.1,26.9,-4.4,24.6,-4.6,22.3C-4.9,20,-5.1,17.7,-5.4,15.3C-5.6,13,-5.9,10.7,-6.1,8.4C-6.3,6.1,-6.5,3.8,-6.8,1.4C-7,-0.9,-7.2,-3.2,-7.4,-5.5C-7.6,-7.9,-7.8,-10.2,-8,-12.5C-8.2,-14.8,-8.5,-17.2,-8.7,-19.5C-8.9,-21.8,-9.1,-24.1,-9.3,-26.5C-9.5,-28.8,-9.7,-31.1,-10,-33.4C-10.2,-35.8,-10.4,-38.1,-10.6,-40.4C-10.9,-42.7,-11.1,-45.1,-11.4,-47.4C-11.6,-49.7,-11.9,-52.1,-12.2,-54.4C-12.5,-56.7,-12.8,-59,-13.1,-61.4C-13.4,-63.7,-13.7,-66,-14.1,-68.4C-14.4,-70.7,-14.8,-73,-15.2,-75.3C-15.6,-77.7,-16,-80,-16.5,-82.3C-17,-84.6,-17.5,-86.9,-18,-89.2C-18.6,-91.6,-19.2,-93.9,-19.8,-96.2z" ed:parentid="101" stroke-linecap="round" transform="matrix(1,0,0,1,501,531)" stroke-linejoin="round" stroke="#a284dc" id="107"/>
+    <path ed:tosuperid="110" fill="#0fd4c7" d="M26,-88.2C26.7,-90.6,25.7,-92.7,23.8,-93.2C22,-93.8,19.9,-92.6,19.3,-90.2C18.7,-87.9,18,-85.6,17.5,-83.3C16.9,-81,16.4,-78.6,16,-76.3C15.5,-74,15.1,-71.7,14.7,-69.4C14.2,-67,13.9,-64.7,13.5,-62.4C13.1,-60.1,12.8,-57.7,12.5,-55.4C12.2,-53.1,11.9,-50.8,11.6,-48.4C11.3,-46.1,11,-43.8,10.7,-41.5C10.5,-39.1,10.2,-36.8,10,-34.5C9.7,-32.2,9.5,-29.8,9.2,-27.5C9,-25.2,8.8,-22.9,8.5,-20.5C8.3,-18.2,8.1,-15.9,7.8,-13.6C7.6,-11.2,7.4,-8.9,7.2,-6.6C6.9,-4.3,6.7,-2,6.5,0.4C6.2,2.7,6,5,5.7,7.3C5.5,9.6,5.2,11.9,5,14.3C4.7,16.6,4.4,18.9,4.1,21.2C3.9,23.5,3.6,25.8,3.3,28.1C3,30.4,2.6,32.7,2.3,35C2,37.3,1.6,39.6,1.3,41.9C0.9,44.2,0.5,46.5,0.1,48.8C-0.3,51.1,-0.8,53.4,-1.2,55.6C-1.7,57.9,-2.2,60.2,-2.7,62.5C-3.2,64.7,-3.8,67,-4.3,69.2C-4.9,71.5,-5.6,73.7,-6.2,75.9C-6.9,78.1,-7.6,80.3,-8.4,82.5C-9.2,84.7,-10,86.9,-10.9,89C-11.8,91.1,-12.7,93.3,-13.8,95.3C-14.8,97.4,-15.9,99.4,-17.1,101.4C-18.3,103.4,-19.6,105.3,-21.1,107.1C-22.5,108.9,-24,110.7,-25.6,112.3C-27.2,114,-29,115.5,-30.9,116.8C-32.7,118.2,-34.7,119.4,-36.8,120.4C-38.8,121.5,-41,122.3,-43.3,123C-45.6,123.6,-48.1,124.1,-50.1,124.4C-52.1,124.6,-53.8,124.7,-55.4,124.7C-53.8,124.7,-52.1,124.7,-50.1,124.5C-48,124.3,-45.5,123.9,-43.2,123.3C-40.8,122.7,-38.7,121.9,-36.6,120.9C-34.4,120,-32.4,118.8,-30.4,117.5C-28.5,116.1,-26.7,114.6,-24.9,113C-23.2,111.4,-21.6,109.7,-20.1,107.8C-18.7,106,-17.3,104.1,-16,102.1C-14.7,100.1,-13.5,98.1,-12.4,96C-11.3,94,-10.2,91.9,-9.3,89.7C-8.3,87.6,-7.4,85.4,-6.6,83.2C-5.7,81,-4.9,78.8,-4.2,76.6C-3.4,74.3,-2.7,72.1,-2.1,69.9C-1.4,67.6,-0.8,65.3,-0.2,63.1C0.4,60.8,1,58.5,1.5,56.2C2,54,2.5,51.7,3,49.4C3.5,47.1,3.9,44.8,4.4,42.5C4.8,40.2,5.2,37.9,5.6,35.6C6,33.3,6.4,30.9,6.8,28.6C7.2,26.3,7.5,24,7.9,21.7C8.2,19.4,8.6,17.1,8.9,14.8C9.2,12.4,9.6,10.1,9.9,7.8C10.2,5.5,10.5,3.2,10.8,0.9C11.1,-1.5,11.4,-3.8,11.7,-6.1C12,-8.4,12.3,-10.7,12.6,-13C12.9,-15.3,13.2,-17.7,13.5,-20C13.8,-22.3,14.1,-24.6,14.4,-26.9C14.7,-29.2,15,-31.5,15.3,-33.8C15.6,-36.1,16,-38.4,16.3,-40.7C16.6,-43,17,-45.3,17.3,-47.6C17.7,-49.9,18,-52.2,18.4,-54.5C18.8,-56.8,19.2,-59.1,19.6,-61.4C20,-63.6,20.5,-65.9,20.9,-68.2C21.4,-70.4,21.9,-72.7,22.4,-74.9C22.9,-77.2,23.5,-79.4,24.1,-81.6C24.7,-83.8,25.3,-86,26,-88.2z" ed:parentid="101" stroke-linecap="round" transform="matrix(1,0,0,1,390,525)" stroke-linejoin="round" stroke="#0fd4c7" id="111"/>
+    <path ed:tosuperid="112" fill="#e8ab88" d="M17.4,-17.8C19.1,-19.7,18.8,-22.1,17.3,-23.3C15.8,-24.5,13.4,-24.2,12,-22.2C10.6,-20.2,9.2,-18.3,7.8,-16.3C6.5,-14.3,5.2,-12.3,4,-10.3C2.8,-8.3,1.5,-6.3,0.3,-4.3C-0.9,-2.3,-2.1,-0.3,-3.3,1.7C-4.5,3.7,-5.7,5.6,-7,7.6C-8.2,9.5,-9.5,11.5,-10.8,13.4C-12.1,15.3,-13.4,17.2,-14.8,19C-16.2,20.8,-17.6,22.6,-19.1,24.3C-20.7,26,-22.2,27.7,-23.9,29.3C-25.6,30.8,-27.4,32.3,-29.2,33.6C-31.1,35,-33,36.2,-35,37.3C-37.1,38.3,-39.2,39.2,-41.4,40C-43.6,40.7,-45.8,41.3,-48.1,41.7C-50.4,42.1,-52.9,42.3,-55.4,42.5C-52.9,42.5,-50.4,42.5,-48,42.2C-45.6,42,-43.4,41.6,-41.1,41C-38.8,40.4,-36.6,39.6,-34.4,38.6C-32.2,37.7,-30.1,36.6,-28.1,35.3C-26.1,34,-24.1,32.7,-22.3,31.2C-20.4,29.7,-18.6,28.1,-17,26.4C-15.3,24.7,-13.6,23,-12.1,21.2C-10.5,19.4,-9,17.6,-7.5,15.8C-6.1,13.9,-4.6,12,-3.2,10.1C-1.8,8.2,-0.5,6.3,0.9,4.4C2.2,2.5,3.6,0.6,4.9,-1.3C6.3,-3.2,7.6,-5.1,9,-7C10.3,-8.8,11.7,-10.7,13.1,-12.5C14.5,-14.3,16,-16,17.4,-17.8z" ed:parentid="101" stroke-linecap="round" transform="matrix(1,0,0,1,390,443)" stroke-linejoin="round" stroke="#e8ab88" id="113"/>
+    <path ed:tosuperid="114" fill="#9acc3d" d="M13.1,25.8C14.4,27.9,16.8,28.2,18.4,27.1C19.9,26,20.2,23.7,18.7,21.7C17.4,19.8,16,18,14.7,16.2C13.4,14.3,12.1,12.4,10.8,10.4C9.6,8.5,8.4,6.5,7.1,4.6C5.9,2.6,4.7,0.6,3.5,-1.4C2.2,-3.4,1,-5.4,-0.2,-7.4C-1.5,-9.4,-2.8,-11.3,-4.1,-13.3C-5.4,-15.3,-6.7,-17.2,-8.1,-19.1C-9.4,-21.1,-10.9,-23,-12.4,-24.8C-13.9,-26.6,-15.4,-28.4,-17,-30.2C-18.7,-31.9,-20.4,-33.6,-22.2,-35.1C-24,-36.7,-25.9,-38.1,-27.8,-39.4C-29.8,-40.8,-31.9,-41.9,-34.1,-42.9C-36.2,-43.9,-38.5,-44.8,-40.7,-45.4C-42.9,-46.1,-45.2,-46.6,-47.6,-46.8C-50.1,-47.1,-52.7,-47.1,-55.4,-47.2C-52.7,-46.9,-50.1,-46.7,-47.7,-46.3C-45.3,-45.9,-43.1,-45.3,-41,-44.5C-38.9,-43.7,-36.7,-42.8,-34.7,-41.7C-32.7,-40.5,-30.8,-39.3,-29,-37.9C-27.1,-36.5,-25.4,-35,-23.8,-33.4C-22.2,-31.8,-20.6,-30.1,-19.2,-28.3C-17.7,-26.5,-16.3,-24.7,-15,-22.8C-13.7,-20.9,-12.4,-19,-11.2,-17C-10,-15.1,-8.8,-13.1,-7.7,-11.1C-6.5,-9.1,-5.4,-7.1,-4.3,-5C-3.2,-3,-2.1,-0.9,-1,1.2C0.1,3.2,1.2,5.3,2.3,7.4C3.4,9.4,4.5,11.5,5.6,13.6C6.8,15.6,8,17.7,9.2,19.7C10.4,21.7,11.7,23.8,13.1,25.8z" ed:parentid="101" stroke-linecap="round" transform="matrix(1,0,0,1,390,354)" stroke-linejoin="round" stroke="#9acc3d" id="115"/>
+    <path ed:tosuperid="116" fill="none" d="M-13.5,35.5C4.3,35.5,-10.8,-35.5,13.5,-35.5" ed:parentid="102" stroke-linecap="round" transform="matrix(1,0,0,1,647,150)" stroke-linejoin="round" stroke="#35d0e6" id="117"/>
+    <path ed:tosuperid="178" fill="none" d="M13.5,8.6C0.7,8.6,-0.7,-8.6,-13.5,-8.6" ed:parentid="110" stroke-linecap="round" transform="matrix(1,0,0,1,244,642)" stroke-linejoin="round" stroke="#0fd4c7" id="179"/>
+    <path ed:tosuperid="180" fill="none" d="M13.5,-20.9C-1.9,-20.9,5.4,20.9,-13.5,20.9" ed:parentid="110" stroke-linecap="round" transform="matrix(1,0,0,1,244,671)" stroke-linejoin="round" stroke="#0fd4c7" id="181"/>
+    <path ed:tosuperid="182" fill="none" d="M13.5,7.4C1,7.4,-1.4,-7.4,-13.5,-7.4" ed:parentid="178" stroke-linecap="round" transform="matrix(1,0,0,1,147,626)" stroke-linejoin="round" stroke="#0fd4c7" id="183"/>
+    <path ed:tosuperid="184" fill="none" d="M13.5,-7.4C1,-7.4,-1.4,7.4,-13.5,7.4" ed:parentid="178" stroke-linecap="round" transform="matrix(1,0,0,1,147,640)" stroke-linejoin="round" stroke="#0fd4c7" id="185"/>
+    <path ed:tosuperid="205" fill="none" d="M13.5,7.4C1,7.4,-1.4,-7.4,-13.5,-7.4" ed:parentid="180" stroke-linecap="round" transform="matrix(1,0,0,1,147,685)" stroke-linejoin="round" stroke="#0fd4c7" id="216"/>
+    <path ed:tosuperid="209" fill="none" d="M13.5,-7.4C1,-7.4,-1.4,7.4,-13.5,7.4" ed:parentid="180" stroke-linecap="round" transform="matrix(1,0,0,1,147,699)" stroke-linejoin="round" stroke="#0fd4c7" id="217"/>
+    <path ed:tosuperid="223" fill="none" d="M13.5,23.4C-2.4,23.4,6.5,-23.4,-13.5,-23.4" ed:parentid="112" stroke-linecap="round" transform="matrix(1,0,0,1,244,462)" stroke-linejoin="round" stroke="#e8ab88" id="224"/>
+    <path ed:tosuperid="225" fill="none" d="M13.5,-6.1C1.3,-6.1,-2.1,6.1,-13.5,6.1" ed:parentid="112" stroke-linecap="round" transform="matrix(1,0,0,1,244,492)" stroke-linejoin="round" stroke="#e8ab88" id="226"/>
+    <path ed:tosuperid="227" fill="none" d="M13.5,-35.6C-4.3,-35.6,10.9,35.6,-13.5,35.6" ed:parentid="112" stroke-linecap="round" transform="matrix(1,0,0,1,244,521)" stroke-linejoin="round" stroke="#e8ab88" id="228"/>
+    <path ed:tosuperid="229" fill="none" d="M13.5,7.4C1,7.4,-1.4,-7.4,-13.5,-7.4" ed:parentid="223" stroke-linecap="round" transform="matrix(1,0,0,1,173,432)" stroke-linejoin="round" stroke="#e8ab88" id="230"/>
+    <path ed:tosuperid="231" fill="none" d="M13.5,-7.4C1,-7.4,-1.4,7.4,-13.5,7.4" ed:parentid="223" stroke-linecap="round" transform="matrix(1,0,0,1,173,446)" stroke-linejoin="round" stroke="#e8ab88" id="232"/>
+    <path ed:tosuperid="233" fill="none" d="M13.5,7.4C1,7.4,-1.4,-7.4,-13.5,-7.4" ed:parentid="225" stroke-linecap="round" transform="matrix(1,0,0,1,173,491)" stroke-linejoin="round" stroke="#e8ab88" id="234"/>
+    <path ed:tosuperid="235" fill="none" d="M13.5,-7.4C1,-7.4,-1.4,7.4,-13.5,7.4" ed:parentid="225" stroke-linecap="round" transform="matrix(1,0,0,1,173,505)" stroke-linejoin="round" stroke="#e8ab88" id="236"/>
+    <path ed:tosuperid="237" fill="none" d="M13.5,7.4C1,7.4,-1.4,-7.4,-13.5,-7.4" ed:parentid="227" stroke-linecap="round" transform="matrix(1,0,0,1,173,550)" stroke-linejoin="round" stroke="#e8ab88" id="238"/>
+    <path ed:tosuperid="239" fill="none" d="M13.5,-7.4C1,-7.4,-1.4,7.4,-13.5,7.4" ed:parentid="227" stroke-linecap="round" transform="matrix(1,0,0,1,173,564)" stroke-linejoin="round" stroke="#e8ab88" id="240"/>
+    <path ed:tosuperid="241" fill="none" d="M13.5,16C-0.9,16,3.1,-16,-13.5,-16" ed:parentid="114" stroke-linecap="round" transform="matrix(1,0,0,1,228,290)" stroke-linejoin="round" stroke="#9acc3d" id="242"/>
+    <path ed:tosuperid="243" fill="none" d="M13.5,-20.9C-1.9,-20.9,5.4,20.9,-13.5,20.9" ed:parentid="114" stroke-linecap="round" transform="matrix(1,0,0,1,228,327)" stroke-linejoin="round" stroke="#9acc3d" id="244"/>
+    <path ed:tosuperid="245" fill="none" d="M13.5,14.8C-0.7,14.8,2.5,-14.8,-13.5,-14.8" ed:parentid="243" stroke-linecap="round" transform="matrix(1,0,0,1,131,333)" stroke-linejoin="round" stroke="#9acc3d" id="246"/>
+    <path ed:tosuperid="247" fill="none" d="M13.5,0C2.7,0,-5.4,0,-13.5,0" ed:parentid="243" stroke-linecap="round" transform="matrix(1,0,0,1,131,348)" stroke-linejoin="round" stroke="#9acc3d" id="248"/>
+    <path ed:tosuperid="249" fill="none" d="M13.5,-14.8C-0.7,-14.8,2.5,14.8,-13.5,14.8" ed:parentid="243" stroke-linecap="round" transform="matrix(1,0,0,1,131,363)" stroke-linejoin="round" stroke="#9acc3d" id="250"/>
+    <path ed:tosuperid="251" fill="none" d="M13.5,7.4C1,7.4,-1.4,-7.4,-13.5,-7.4" ed:parentid="241" stroke-linecap="round" transform="matrix(1,0,0,1,131,267)" stroke-linejoin="round" stroke="#9acc3d" id="252"/>
+    <path ed:tosuperid="253" fill="none" d="M13.5,-7.4C1,-7.4,-1.4,7.4,-13.5,7.4" ed:parentid="241" stroke-linecap="round" transform="matrix(1,0,0,1,131,282)" stroke-linejoin="round" stroke="#9acc3d" id="254"/>
+    <path ed:tosuperid="303" fill="none" d="M-13.5,36.6C4.4,36.6,-11.1,-36.6,13.5,-36.6" ed:parentid="116" stroke-linecap="round" transform="matrix(1,0,0,1,906,78)" stroke-linejoin="round" stroke="#35d0e6" id="304"/>
+    <path ed:tosuperid="306" fill="none" d="M-13.5,23.9C2.5,23.9,-6.7,-23.9,13.5,-23.9" ed:parentid="116" stroke-linecap="round" transform="matrix(1,0,0,1,906,91)" stroke-linejoin="round" stroke="#35d0e6" id="307"/>
+    <path ed:tosuperid="308" fill="none" d="M-13.5,11.1C-0.1,11.1,-0.6,-11.1,13.5,-11.1" ed:parentid="116" stroke-linecap="round" transform="matrix(1,0,0,1,906,104)" stroke-linejoin="round" stroke="#35d0e6" id="309"/>
+    <path ed:tosuperid="310" fill="none" d="M-13.5,-1.6C-2.3,-1.6,4.5,1.6,13.5,1.6" ed:parentid="116" stroke-linecap="round" transform="matrix(1,0,0,1,906,116)" stroke-linejoin="round" stroke="#35d0e6" id="311"/>
+    <path ed:tosuperid="312" fill="none" d="M-13.5,-14.4C0.6,-14.4,-2.3,14.4,13.5,14.4" ed:parentid="116" stroke-linecap="round" transform="matrix(1,0,0,1,906,129)" stroke-linejoin="round" stroke="#35d0e6" id="313"/>
+    <path ed:tosuperid="314" fill="none" d="M-13.5,-34.6C4.1,-34.6,-10.6,34.6,13.5,34.6" ed:parentid="116" stroke-linecap="round" transform="matrix(1,0,0,1,906,149)" stroke-linejoin="round" stroke="#35d0e6" id="315"/>
+    <path ed:tosuperid="316" fill="none" d="M-13.5,-47.1C5.2,-47.1,-13.1,47.1,13.5,47.1" ed:parentid="102" stroke-linecap="round" transform="matrix(1,0,0,1,647,233)" stroke-linejoin="round" stroke="#35d0e6" id="317"/>
+    <path ed:tosuperid="318" fill="none" d="M-13.5,20.3L-0.5,20.3C-0.5,-4,5.1,-20.3,13.5,-20.3" ed:parentid="316" stroke-linecap="round" transform="matrix(1,0,0,1,975,260)" stroke-linejoin="round" stroke="#35d0e6" id="319"/>
+    <path ed:tosuperid="320" fill="none" d="M-0.5,-7.5C-0.5,1.5,5.1,7.5,13.5,7.5" ed:parentid="316" stroke-linecap="round" transform="matrix(1,0,0,1,975,288)" stroke-linejoin="round" stroke="#35d0e6" id="321"/>
+    <path ed:tosuperid="326" fill="none" d="M-0.5,-35.3C-0.5,7,5.1,35.3,13.5,35.3" ed:parentid="316" stroke-linecap="round" transform="matrix(1,0,0,1,975,315)" stroke-linejoin="round" stroke="#35d0e6" id="327"/>
+    <path ed:tosuperid="328" fill="none" d="M-13.5,18.9C1.5,18.9,-4.5,-18.9,13.5,-18.9" ed:parentid="104" stroke-linecap="round" transform="matrix(1,0,0,1,647,427)" stroke-linejoin="round" stroke="#f68ac8" id="329"/>
+    <path ed:tosuperid="330" fill="none" d="M-13.5,-8.9C-0.6,-8.9,0.6,8.9,13.5,8.9" ed:parentid="104" stroke-linecap="round" transform="matrix(1,0,0,1,647,455)" stroke-linejoin="round" stroke="#f68ac8" id="331"/>
+    <path ed:tosuperid="332" fill="none" d="M-13.5,-36.6C4.4,-36.6,-11.1,36.6,13.5,36.6" ed:parentid="104" stroke-linecap="round" transform="matrix(1,0,0,1,647,482)" stroke-linejoin="round" stroke="#f68ac8" id="333"/>
+    <path ed:tosuperid="334" fill="#f1af43" d="M19.1,88.6C19.8,91.1,21.8,92.2,23.7,91.7C25.5,91.1,26.5,89.1,25.8,86.6C25.2,84.5,24.5,82.3,23.9,80.1C23.3,77.9,22.8,75.6,22.3,73.4C21.7,71.1,21.2,68.9,20.8,66.6C20.3,64.4,19.9,62.1,19.4,59.8C19,57.5,18.6,55.3,18.2,53C17.9,50.7,17.5,48.4,17.1,46.1C16.8,43.8,16.4,41.5,16.1,39.2C15.8,36.9,15.4,34.6,15.1,32.3C14.8,30,14.5,27.7,14.2,25.4C13.9,23,13.6,20.7,13.3,18.4C12.9,16.1,12.6,13.8,12.3,11.5C12,9.2,11.7,6.9,11.4,4.5C11.1,2.2,10.8,-0.1,10.5,-2.4C10.2,-4.7,9.9,-7,9.5,-9.4C9.2,-11.7,8.9,-14,8.5,-16.3C8.2,-18.6,7.9,-20.9,7.5,-23.2C7.1,-25.5,6.8,-27.9,6.4,-30.2C6,-32.5,5.6,-34.8,5.2,-37.1C4.7,-39.4,4.3,-41.7,3.8,-44C3.4,-46.3,2.9,-48.6,2.4,-50.9C1.9,-53.2,1.4,-55.4,0.8,-57.7C0.3,-60,-0.3,-62.3,-0.9,-64.5C-1.6,-66.8,-2.2,-69.1,-2.9,-71.3C-3.6,-73.5,-4.3,-75.8,-5.1,-78C-5.9,-80.2,-6.7,-82.4,-7.6,-84.6C-8.5,-86.7,-9.5,-88.9,-10.5,-91C-11.5,-93.1,-12.6,-95.2,-13.8,-97.2C-15,-99.3,-16.3,-101.3,-17.6,-103.2C-19,-105.1,-20.5,-107,-22.1,-108.7C-23.6,-110.5,-25.3,-112.1,-27.1,-113.6C-28.9,-115.1,-30.9,-116.5,-32.9,-117.7C-34.9,-118.9,-37.1,-119.9,-39.3,-120.7C-41.4,-121.5,-43.5,-122.2,-46,-122.6C-48.5,-123,-51.4,-123.3,-53,-123.4C-54.6,-123.4,-55,-123.4,-55.4,-123.4C-55,-123.4,-54.6,-123.4,-53,-123.3C-51.4,-123.1,-48.5,-122.8,-46.1,-122.3C-43.6,-121.8,-41.5,-121.2,-39.4,-120.3C-37.3,-119.4,-35.2,-118.3,-33.3,-117.1C-31.3,-115.9,-29.4,-114.5,-27.7,-112.9C-26,-111.4,-24.4,-109.7,-22.9,-108C-21.4,-106.2,-20,-104.4,-18.7,-102.5C-17.4,-100.5,-16.2,-98.5,-15.1,-96.5C-14,-94.5,-13,-92.4,-12.1,-90.3C-11.1,-88.2,-10.2,-86,-9.4,-83.9C-8.6,-81.7,-7.8,-79.5,-7.1,-77.3C-6.4,-75.1,-5.7,-72.9,-5.1,-70.6C-4.5,-68.4,-3.9,-66.2,-3.4,-63.9C-2.8,-61.7,-2.3,-59.4,-1.8,-57.1C-1.3,-54.8,-0.9,-52.6,-0.5,-50.3C-0,-48,0.4,-45.7,0.8,-43.4C1.2,-41.1,1.5,-38.8,1.9,-36.5C2.2,-34.2,2.6,-31.9,2.9,-29.6C3.2,-27.3,3.5,-25,3.8,-22.7C4.1,-20.4,4.4,-18.1,4.6,-15.8C4.9,-13.5,5.2,-11.2,5.4,-8.8C5.7,-6.5,5.9,-4.2,6.2,-1.9C6.4,0.4,6.7,2.8,6.9,5.1C7.1,7.4,7.4,9.7,7.6,12C7.8,14.4,8.1,16.7,8.3,19C8.6,21.3,8.8,23.6,9,26C9.3,28.3,9.5,30.6,9.8,32.9C10,35.3,10.3,37.6,10.6,39.9C10.8,42.2,11.1,44.6,11.4,46.9C11.7,49.2,12,51.5,12.3,53.9C12.7,56.2,13,58.5,13.4,60.8C13.7,63.2,14.1,65.5,14.5,67.8C14.9,70.1,15.3,72.5,15.8,74.8C16.3,77.1,16.8,79.4,17.3,81.7C17.9,84,18.5,86.3,19.1,88.6z" ed:parentid="101" stroke-linecap="round" transform="matrix(1,0,0,1,390,277)" stroke-linejoin="round" stroke="#f1af43" id="335"/>
+    <path ed:tosuperid="338" fill="none" d="M-0.5,2.6C-0.5,-0.5,5.1,-2.6,13.5,-2.6" ed:parentid="281" stroke-linecap="round" transform="matrix(1,0,0,1,888,605)" stroke-linejoin="round" stroke="#a284dc" id="339"/>
+    <path ed:tosuperid="340" fill="none" d="M-13.5,-8.9C-0.6,-8.9,0.6,8.9,13.5,8.9" ed:parentid="106" stroke-linecap="round" transform="matrix(1,0,0,1,663,670)" stroke-linejoin="round" stroke="#a284dc" id="341"/>
+    <path ed:tosuperid="342" fill="none" d="M-13.5,-21.6C2.1,-21.6,-5.7,21.6,13.5,21.6" ed:parentid="106" stroke-linecap="round" transform="matrix(1,0,0,1,663,682)" stroke-linejoin="round" stroke="#a284dc" id="343"/>
+    <path ed:tosuperid="346" fill="none" d="M-13.5,-34.4C4.1,-34.4,-10.5,34.4,13.5,34.4" ed:parentid="106" stroke-linecap="round" transform="matrix(1,0,0,1,663,695)" stroke-linejoin="round" stroke="#a284dc" id="347"/>
+    <path ed:tosuperid="348" fill="none" d="M-13.5,-47.1C5.2,-47.1,-13.1,47.1,13.5,47.1" ed:parentid="106" stroke-linecap="round" transform="matrix(1,0,0,1,663,708)" stroke-linejoin="round" stroke="#a284dc" id="349"/>
+    <path ed:tosuperid="275" fill="none" d="M-0.5,-10.1C-0.5,2,5.1,10.1,13.5,10.1" ed:parentid="281" stroke-linecap="round" transform="matrix(1,0,0,1,888,617)" stroke-linejoin="round" stroke="#a284dc" id="276"/>
+    <path ed:tosuperid="277" fill="none" d="M-0.5,-22.9C-0.5,4.6,5.1,22.9,13.5,22.9" ed:parentid="281" stroke-linecap="round" transform="matrix(1,0,0,1,888,630)" stroke-linejoin="round" stroke="#a284dc" id="278"/>
+    <path ed:tosuperid="279" fill="none" d="M-13.5,15.4L-0.5,15.4C-0.5,-3.1,5.1,-15.4,13.5,-15.4" ed:parentid="281" stroke-linecap="round" transform="matrix(1,0,0,1,888,592)" stroke-linejoin="round" stroke="#a284dc" id="280"/>
+    <path ed:tosuperid="281" fill="none" d="M-13.5,26.8C3,26.8,-7.9,-26.8,13.5,-26.8" ed:parentid="106" stroke-linecap="round" transform="matrix(1,0,0,1,663,634)" stroke-linejoin="round" stroke="#a284dc" id="282"/>
+    <path ed:tosuperid="283" fill="none" d="M-13.5,-59.9C5.4,-59.9,-13.5,59.9,13.5,59.9" ed:parentid="106" stroke-linecap="round" transform="matrix(1,0,0,1,663,721)" stroke-linejoin="round" stroke="#a284dc" id="284"/>
+    <g ed:width="95.4706" ed:layout="map" transform="matrix(1,0,0,1,398,353)" ed:topictype="mainidea" id="101" ed:height="95.4706">
+        <path fill="#6bdd98" d="M92,47.7C96.5,55.3,99.5,68.9,81.9,72.7C82,87,73,91.6,60.4,88.2C47.5,101.3,37.3,93.8,33.1,88.2C13.5,93.1,11.8,75.9,12,72.7C-3.5,66.4,-1.4,55.7,4.1,47.7C-4.7,32.2,3.5,24.9,13.1,22.6C11.6,6.7,23.8,4,34.5,7.2C36.3,4.8,48.4,-7.7,60.4,7.2C72.2,3.6,83.6,6.9,84,22.6C92.4,24.9,100.1,32.9,92,47.7z" stroke-linejoin="round" stroke="#6bdd98" stroke-width="3"/>
+        <text class="st52">
+            <tspan style="white-space:pre" x="17" y="53.7">TSN</tspan>
+        </text>
+        <g ed:note="&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; color:#333333; background-color:#ffffff;&quot;>因为工业环境对确定性有着苛刻的要求。每次都必须精确地传送和接收数据包，而数据延迟可能会发生灾难性的后果。&lt;/span>&lt;/p>&lt;/body>">
+            <use xlink:href="#note" transform="translate(62,40)"/>
+        </g>
+    </g>
+    <symbol id="note">
+        <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyOTkwNTNiYS1iMTE3LWZiNDQtOTgwYy1mYjkwYzFiNzJlMWUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QkYyRkU5OTU5Nzg0MTFFNzlFMjZFQTA0OUExMTI5NjAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QkYyRkU5OTQ5Nzg0MTFFNzlFMjZFQTA0OUExMTI5NjAiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MmY3M2I2ZDQtOWU4NC04ZDQ4LTk5NzItZDE3ODAwZjMyZDYzIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6YzQ3Yzk0OWQtMGQ1Ny0xMWU3LTkzMmUtYzliNjJlYTc1ZTM1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+K193vQAAAZpJREFUeNqkU0svA1EYPXe01UxV0npUSZTUBgtCk6Z2NmJj7R9YsKrHyiMRfoAtWxt/gWAhIkGaSEQqwdBWQrRlKp161PT6xijaejU9yZ17c+ee893z3e9jnHOUAoP2mZpbKkpltP+SEWDzzOoCGuanh/5FTqwunyvbFpdynwzZPIBQTOSHyA0eD9Xmpwhfp9H2YSGLncDRj2RvQxjcaEO61o7U8UlLmr0s0HZfjoCvqy2PxgD+AkTXwO73IKZOkRmYAI9eR+TtjfGCG2iJyYGqAPFNQN4FUhJgqoYYWzyz2O/61Iwi/WnBVx8ESwbJfJjINXQbFTMrne6xXkmy+g0oEOjpbn+b048JsNgqWCJAkS8A8g7BCN7op79rlAsTWLlQKKCzozDKW0Ay8BlZE2gaJpJTP6MVX0YvHSHfwvPVAXneJ3IIKHfQLiXRNUJr57evkyPgaW2EQUlBfagDyuw0RKBlEjDX/V7KWURjcZjlW9jsbvCKdjCHl05U/t0LWZitVRA7BiGIYnHN9N5Q/6/pL/XCSm3nVwEGAAA2iwis0BevAAAAAElFTkSuQmCC" height="16" width="16"/>
+    </symbol>
+    <g ed:parentid="101" ed:width="77.52379999999999" ed:layout="rightmap" transform="matrix(1,0,0,1,556,167)" id="102" ed:height="38.1857">
+        <path fill="#35d0e6" d="M0,19.1C0,8.5,17.4,0,38.8,0C60.2,0,77.5,8.5,77.5,19.1C77.5,29.6,60.2,38.2,38.8,38.2C17.4,38.2,0,29.6,0,19.1z" stroke-linejoin="round" stroke="#35d0e6"/>
+        <text class="st53">
+            <tspan style="white-space:pre" x="21" y="24">发展</tspan>
+        </text>
+    </g>
+    <g ed:parentid="101" ed:width="77.52379999999999" ed:layout="rightmap" transform="matrix(1,0,0,1,556,427)" id="104" ed:height="38.1857">
+        <path fill="#f68ac8" d="M0,19.1C0,8.5,17.4,0,38.8,0C60.2,0,77.5,8.5,77.5,19.1C77.5,29.6,60.2,38.2,38.8,38.2C17.4,38.2,0,29.6,0,19.1z" stroke-linejoin="round" stroke="#f68ac8"/>
+        <text class="st53">
+            <tspan style="white-space:pre" x="21" y="24">优势</tspan>
+        </text>
+    </g>
+    <g ed:parentid="101" ed:width="93.52379999999999" ed:layout="rightmap" transform="matrix(1,0,0,1,556,638)" id="106" ed:height="45.3857">
+        <path fill="#a284dc" d="M0,22.7C0,10.2,20.9,0,46.8,0C72.6,0,93.5,10.2,93.5,22.7C93.5,35.2,72.6,45.4,46.8,45.4C20.9,45.4,0,35.2,0,22.7z" stroke-linejoin="round" stroke="#a284dc"/>
+        <text class="st53">
+            <tspan style="white-space:pre" x="13" y="27.6">技术支持</tspan>
+        </text>
+    </g>
+    <g ed:parentid="101" ed:width="77.52379999999999" ed:layout="leftmap" transform="matrix(1,0,0,1,257,631)" id="110" ed:height="38.1857">
+        <path fill="#0fd4c7" d="M0,19.1C0,8.5,17.4,0,38.8,0C60.2,0,77.5,8.5,77.5,19.1C77.5,29.6,60.2,38.2,38.8,38.2C17.4,38.2,0,29.6,0,19.1z" stroke-linejoin="round" stroke="#0fd4c7"/>
+        <text class="st53">
+            <tspan style="white-space:pre" x="21" y="24">健康</tspan>
+        </text>
+    </g>
+    <g ed:parentid="101" ed:width="77.52379999999999" ed:layout="leftmap" transform="matrix(1,0,0,1,257,467)" id="112" ed:height="38.1857">
+        <path fill="#e8ab88" d="M0,19.1C0,8.5,17.4,0,38.8,0C60.2,0,77.5,8.5,77.5,19.1C77.5,29.6,60.2,38.2,38.8,38.2C17.4,38.2,0,29.6,0,19.1z" stroke-linejoin="round" stroke="#e8ab88"/>
+        <text class="st53">
+            <tspan style="white-space:pre" x="21" y="24">财富</tspan>
+        </text>
+    </g>
+    <g ed:parentid="101" ed:width="93.52379999999999" ed:layout="leftmap" transform="matrix(1,0,0,1,241,284)" id="114" ed:height="45.3857">
+        <path fill="#9acc3d" d="M0,22.7C0,10.2,20.9,0,46.8,0C72.6,0,93.5,10.2,93.5,22.7C93.5,35.2,72.6,45.4,46.8,45.4C20.9,45.4,0,35.2,0,22.7z" stroke-linejoin="round" stroke="#9acc3d"/>
+        <text class="st53">
+            <tspan style="white-space:pre" x="13" y="27.6">个人发展</tspan>
+        </text>
+    </g>
+    <g ed:parentid="102" ed:width="232" ed:layout="rightmap" transform="matrix(1,0,0,1,661,90)" id="116" ed:height="24.5">
+        <path fill="none" d="M0,24.5L232,24.5" stroke-linejoin="round" stroke="#35d0e6"/>
+        <text class="st54">
+            <tspan style="white-space:pre" x="8" y="16.1">20世纪80年代以太网刚引入办公领域</tspan>
+        </text>
+    </g>
+    <g ed:parentid="110" ed:width="70" ed:layout="leftmap" transform="matrix(1,0,0,1,160,608)" id="178" ed:height="24.5">
+        <path fill="none" d="M0,24.5L70,24.5" stroke-linejoin="round" stroke="#0fd4c7"/>
+        <text class="st55">
+            <tspan style="white-space:pre" x="8" y="16.1">身体方面</tspan>
+        </text>
+    </g>
+    <g ed:parentid="110" ed:width="70" ed:layout="leftmap" transform="matrix(1,0,0,1,160,667)" id="180" ed:height="24.5">
+        <path fill="none" d="M0,24.5L70,24.5" stroke-linejoin="round" stroke="#0fd4c7"/>
+        <text class="st55">
+            <tspan style="white-space:pre" x="8" y="16.1">精神方面</tspan>
+        </text>
+    </g>
+    <g ed:parentid="178" ed:width="44" ed:layout="leftmap" transform="matrix(1,0,0,1,89,594)" id="182" ed:height="24.5">
+        <path fill="none" d="M0,24.5L44,24.5" stroke-linejoin="round" stroke="#0fd4c7"/>
+        <text class="st55">
+            <tspan style="white-space:pre" x="8" y="16.1">目标</tspan>
+        </text>
+    </g>
+    <g ed:parentid="178" ed:width="70" ed:layout="leftmap" transform="matrix(1,0,0,1,63,623)" id="184" ed:height="24.5">
+        <path fill="none" d="M0,24.5L70,24.5" stroke-linejoin="round" stroke="#0fd4c7"/>
+        <text class="st55">
+            <tspan style="white-space:pre" x="8" y="16.1">如何实现</tspan>
+        </text>
+    </g>
+    <g style="display:none" ed:parentid="182" ed:width="70" ed:layout="leftmap" transform="matrix(1,0,0,1,-362,-44)" id="190" ed:height="24.5">
+        <path fill="none" d="M0,24.5L70,24.5" stroke-linejoin="round" stroke="#0fd4c7"/>
+        <text class="st55">
+            <tspan style="white-space:pre" x="8" y="16.1">长期目标</tspan>
+        </text>
+    </g>
+    <g style="display:none" ed:parentid="182" ed:width="70" ed:layout="leftmap" transform="matrix(1,0,0,1,-362,-15)" id="192" ed:height="24.5">
+        <path fill="none" d="M0,24.5L70,24.5" stroke-linejoin="round" stroke="#0fd4c7"/>
+        <text class="st55">
+            <tspan style="white-space:pre" x="8" y="16.1">短期目标</tspan>
+        </text>
+    </g>
+    <g style="display:none" ed:parentid="184" ed:width="44" ed:layout="leftmap" transform="matrix(1,0,0,1,-362,-30)" id="194" ed:height="24.5">
+        <path fill="none" d="M0,24.5L44,24.5" stroke-linejoin="round" stroke="#0fd4c7"/>
+        <text class="st55">
+            <tspan style="white-space:pre" x="8" y="16.1">饮食</tspan>
+        </text>
+    </g>
+    <g style="display:none" ed:parentid="184" ed:width="44" ed:layout="leftmap" transform="matrix(1,0,0,1,-362,-1)" id="196" ed:height="24.5">
+        <path fill="none" d="M0,24.5L44,24.5" stroke-linejoin="round" stroke="#0fd4c7"/>
+        <text class="st55">
+            <tspan style="white-space:pre" x="8" y="16.1">运动</tspan>
+        </text>
+    </g>
+    <g style="display:none" ed:parentid="184" ed:width="44" ed:layout="leftmap" transform="matrix(1,0,0,1,-362,28)" id="198" ed:height="24.5">
+        <path fill="none" d="M0,24.5L44,24.5" stroke-linejoin="round" stroke="#0fd4c7"/>
+        <text class="st55">
+            <tspan style="white-space:pre" x="8" y="16.1">睡眠</tspan>
+        </text>
+    </g>
+    <g style="display:none" ed:parentid="184" ed:width="44" ed:layout="leftmap" transform="matrix(1,0,0,1,-362,56)" id="200" ed:height="24.5">
+        <path fill="none" d="M0,24.5L44,24.5" stroke-linejoin="round" stroke="#0fd4c7"/>
+        <text class="st55">
+            <tspan style="white-space:pre" x="8" y="16.1">就医</tspan>
+        </text>
+    </g>
+    <g style="display:none" ed:parentid="205" ed:width="70" ed:layout="leftmap" transform="matrix(1,0,0,1,-362,28)" id="202" ed:height="24.5">
+        <path fill="none" d="M0,24.5L70,24.5" stroke-linejoin="round" stroke="#0fd4c7"/>
+        <text class="st55">
+            <tspan style="white-space:pre" x="8" y="16.1">长期目标</tspan>
+        </text>
+    </g>
+    <g style="display:none" ed:parentid="205" ed:width="70" ed:layout="leftmap" transform="matrix(1,0,0,1,-362,56)" id="203" ed:height="24.5">
+        <path fill="none" d="M0,24.5L70,24.5" stroke-linejoin="round" stroke="#0fd4c7"/>
+        <text class="st55">
+            <tspan style="white-space:pre" x="8" y="16.1">短期目标</tspan>
+        </text>
+    </g>
+    <g ed:parentid="180" ed:width="44" ed:layout="leftmap" transform="matrix(1,0,0,1,89,653)" id="205" ed:height="24.5">
+        <path fill="none" d="M0,24.5L44,24.5" stroke-linejoin="round" stroke="#0fd4c7"/>
+        <text class="st55">
+            <tspan style="white-space:pre" x="8" y="16.1">目标</tspan>
+        </text>
+    </g>
+    <g ed:parentid="180" ed:width="70" ed:layout="leftmap" transform="matrix(1,0,0,1,63,682)" id="209" ed:height="24.5">
+        <path fill="none" d="M0,24.5L70,24.5" stroke-linejoin="round" stroke="#0fd4c7"/>
+        <text class="st55">
+            <tspan style="white-space:pre" x="8" y="16.1">如何实现</tspan>
+        </text>
+    </g>
+    <g style="display:none" ed:parentid="209" ed:width="96" ed:layout="leftmap" transform="matrix(1,0,0,1,-414,128)" id="218" ed:height="24.5">
+        <path fill="none" d="M0,24.5L96,24.5" stroke-linejoin="round" stroke="#0fd4c7"/>
+        <text class="st55">
+            <tspan style="white-space:pre" x="8" y="16.1">避免悲观情绪</tspan>
+        </text>
+    </g>
+    <g style="display:none" ed:parentid="209" ed:width="109" ed:layout="leftmap" transform="matrix(1,0,0,1,-427,157)" id="220" ed:height="24.5">
+        <path fill="none" d="M0,24.5L109,24.5" stroke-linejoin="round" stroke="#0fd4c7"/>
+        <text class="st55">
+            <tspan style="white-space:pre" x="8" y="16.1">良好的社交关系</tspan>
+        </text>
+    </g>
+    <g ed:parentid="112" ed:width="44" ed:layout="leftmap" transform="matrix(1,0,0,1,186,414)" id="223" ed:height="24.5">
+        <path fill="none" d="M0,24.5L44,24.5" stroke-linejoin="round" stroke="#e8ab88"/>
+        <text class="st56">
+            <tspan style="white-space:pre" x="8" y="16.1">收入</tspan>
+        </text>
+    </g>
+    <g ed:parentid="112" ed:width="44" ed:layout="leftmap" transform="matrix(1,0,0,1,186,473)" id="225" ed:height="24.5">
+        <path fill="none" d="M0,24.5L44,24.5" stroke-linejoin="round" stroke="#e8ab88"/>
+        <text class="st56">
+            <tspan style="white-space:pre" x="8" y="16.1">支出</tspan>
+        </text>
+    </g>
+    <g ed:parentid="112" ed:width="44" ed:layout="leftmap" transform="matrix(1,0,0,1,186,532)" id="227" ed:height="24.5">
+        <path fill="none" d="M0,24.5L44,24.5" stroke-linejoin="round" stroke="#e8ab88"/>
+        <text class="st56">
+            <tspan style="white-space:pre" x="8" y="16.1">存款</tspan>
+        </text>
+    </g>
+    <g ed:parentid="223" ed:width="70" ed:layout="leftmap" transform="matrix(1,0,0,1,89,400)" id="229" ed:height="24.5">
+        <path fill="none" d="M0,24.5L70,24.5" stroke-linejoin="round" stroke="#e8ab88"/>
+        <text class="st56">
+            <tspan style="white-space:pre" x="8" y="16.1">预期收入</tspan>
+        </text>
+    </g>
+    <g ed:parentid="223" ed:width="70" ed:layout="leftmap" transform="matrix(1,0,0,1,89,429)" id="231" ed:height="24.5">
+        <path fill="none" d="M0,24.5L70,24.5" stroke-linejoin="round" stroke="#e8ab88"/>
+        <text class="st56">
+            <tspan style="white-space:pre" x="8" y="16.1">实际收入</tspan>
+        </text>
+    </g>
+    <g ed:parentid="225" ed:width="70" ed:layout="leftmap" transform="matrix(1,0,0,1,89,459)" id="233" ed:height="24.5">
+        <path fill="none" d="M0,24.5L70,24.5" stroke-linejoin="round" stroke="#e8ab88"/>
+        <text class="st56">
+            <tspan style="white-space:pre" x="8" y="16.1">预期支出</tspan>
+        </text>
+    </g>
+    <g ed:parentid="225" ed:width="70" ed:layout="leftmap" transform="matrix(1,0,0,1,89,488)" id="235" ed:height="24.5">
+        <path fill="none" d="M0,24.5L70,24.5" stroke-linejoin="round" stroke="#e8ab88"/>
+        <text class="st56">
+            <tspan style="white-space:pre" x="8" y="16.1">实际支出</tspan>
+        </text>
+    </g>
+    <g ed:parentid="227" ed:width="70" ed:layout="leftmap" transform="matrix(1,0,0,1,89,518)" id="237" ed:height="24.5">
+        <path fill="none" d="M0,24.5L70,24.5" stroke-linejoin="round" stroke="#e8ab88"/>
+        <text class="st56">
+            <tspan style="white-space:pre" x="8" y="16.1">预期存款</tspan>
+        </text>
+    </g>
+    <g ed:parentid="227" ed:width="70" ed:layout="leftmap" transform="matrix(1,0,0,1,89,547)" id="239" ed:height="24.5">
+        <path fill="none" d="M0,24.5L70,24.5" stroke-linejoin="round" stroke="#e8ab88"/>
+        <text class="st56">
+            <tspan style="white-space:pre" x="8" y="16.1">实际存款</tspan>
+        </text>
+    </g>
+    <g ed:parentid="114" ed:width="70" ed:layout="leftmap" transform="matrix(1,0,0,1,144,250)" id="241" ed:height="24.5">
+        <path fill="none" d="M0,24.5L70,24.5" stroke-linejoin="round" stroke="#9acc3d"/>
+        <text class="st57">
+            <tspan style="white-space:pre" x="8" y="16.1">内在发展</tspan>
+        </text>
+    </g>
+    <g ed:parentid="114" ed:width="70" ed:layout="leftmap" transform="matrix(1,0,0,1,144,324)" id="243" ed:height="24.5">
+        <path fill="none" d="M0,24.5L70,24.5" stroke-linejoin="round" stroke="#9acc3d"/>
+        <text class="st57">
+            <tspan style="white-space:pre" x="8" y="16.1">外在发展</tspan>
+        </text>
+    </g>
+    <g ed:parentid="243" ed:width="44" ed:layout="leftmap" transform="matrix(1,0,0,1,73,294)" id="245" ed:height="24.5">
+        <path fill="none" d="M0,24.5L44,24.5" stroke-linejoin="round" stroke="#9acc3d"/>
+        <text class="st57">
+            <tspan style="white-space:pre" x="8" y="16.1">外表</tspan>
+        </text>
+    </g>
+    <g ed:parentid="243" ed:width="96" ed:layout="leftmap" transform="matrix(1,0,0,1,21,324)" id="247" ed:height="24.5">
+        <path fill="none" d="M0,24.5L96,24.5" stroke-linejoin="round" stroke="#9acc3d"/>
+        <text class="st57">
+            <tspan style="white-space:pre" x="8" y="16.1">个人卫生护理</tspan>
+        </text>
+    </g>
+    <g ed:parentid="243" ed:width="44" ed:layout="leftmap" transform="matrix(1,0,0,1,73,353)" id="249" ed:height="24.5">
+        <path fill="none" d="M0,24.5L44,24.5" stroke-linejoin="round" stroke="#9acc3d"/>
+        <text class="st57">
+            <tspan style="white-space:pre" x="8" y="16.1">体型</tspan>
+        </text>
+    </g>
+    <g ed:parentid="241" ed:width="44" ed:layout="leftmap" transform="matrix(1,0,0,1,73,235)" id="251" ed:height="24.5">
+        <path fill="none" d="M0,24.5L44,24.5" stroke-linejoin="round" stroke="#9acc3d"/>
+        <text class="st57">
+            <tspan style="white-space:pre" x="8" y="16.1">心理</tspan>
+        </text>
+    </g>
+    <g ed:parentid="241" ed:width="44" ed:layout="leftmap" transform="matrix(1,0,0,1,73,265)" id="253" ed:height="24.5">
+        <path fill="none" d="M0,24.5L44,24.5" stroke-linejoin="round" stroke="#9acc3d"/>
+        <text class="st57">
+            <tspan style="white-space:pre" x="8" y="16.1">精神</tspan>
+        </text>
+    </g>
+    <g ed:parentid="116" ed:width="252" ed:layout="rightmap" transform="matrix(1,0,0,1,920,21)" id="303" ed:height="20.5">
+        <path fill="none" d="M0,20.5L252,20.5" stroke-linejoin="round" stroke="#35d0e6"/>
+        <text class="st58">
+            <tspan style="white-space:pre" x="8" y="15.6">缺点：这种以太网对实时应用来说不适用</tspan>
+        </text>
+    </g>
+    <g ed:parentid="116" ed:width="304" ed:layout="rightmap" transform="matrix(1,0,0,1,920,47)" id="306" ed:height="20.5">
+        <path fill="none" d="M0,20.5L304,20.5" stroke-linejoin="round" stroke="#35d0e6"/>
+        <text class="st58">
+            <tspan style="white-space:pre" x="8" y="15.6">原因：适用合用线通用介质，高利用率易发生冲突</tspan>
+        </text>
+    </g>
+    <g ed:parentid="116" ed:width="416" ed:layout="rightmap" transform="matrix(1,0,0,1,920,72)" id="308" ed:height="20.5">
+        <path fill="none" d="M0,20.5L416,20.5" stroke-linejoin="round" stroke="#35d0e6"/>
+        <text class="st58">
+            <tspan style="white-space:pre" x="8" y="15.6">解决：引入交换机解决冲突，服务质量QoS引入以太网数据报文优先级</tspan>
+        </text>
+    </g>
+    <g ed:parentid="116" ed:width="403" ed:layout="rightmap" transform="matrix(1,0,0,1,920,98)" id="310" ed:height="20.5">
+        <path fill="none" d="M0,20.5L403,20.5" stroke-linejoin="round" stroke="#35d0e6"/>
+        <text class="st58">
+            <tspan style="white-space:pre" x="8" y="15.6">新缺点：对于工业交换机低延时极为重要，尽管有QoS，但是。。。</tspan>
+        </text>
+    </g>
+    <g ed:parentid="116" ed:width="442" ed:layout="rightmap" transform="matrix(1,0,0,1,920,123)" id="312" ed:height="20.5">
+        <path fill="none" d="M0,20.5L442,20.5" stroke-linejoin="round" stroke="#35d0e6"/>
+        <text class="st59">
+            <tspan style="white-space:pre" x="8" y="15.6">核心原因：商用多端口交换机常用的</tspan>
+            <tspan style="white-space:pre" class="st60">存储转发策略</tspan>
+            <tspan style="white-space:pre">是不可能</tspan>
+            <tspan style="white-space:pre" class="st60">预留带宽</tspan>
+            <tspan style="white-space:pre">的</tspan>
+        </text>
+        <g ed:note="&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; color:#191919; background-color:#ffffff;&quot;>存储转发意味着交换机在转发之前要收到完整的数据报文。这在交换机处理方面具有优势，但也带来了潜在问题，会对延迟和可靠性产生负面影响：&lt;/span>&lt;/p>&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;  font-family:'宋体'; color:#191919;&quot;>&lt;br />&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; color:#191919;&quot;>当数据报文经过交换机时，会按照其长度生成一定的延迟。如果多个交换机级联，延迟影响会被放大。&lt;/span>&lt;/p>&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;  font-family:'宋体'; color:#191919;&quot;>&lt;br />&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; color:#191919;&quot;>由于交换机的存储容量不是无限的，如果网络使用过度（流量过多），它可能拒绝数据报文；这意味着可能会丢失数据报文（甚至那些优先级较高的数据报文）。&lt;/span>&lt;/p>&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;  font-family:'宋体'; color:#191919;&quot;>&lt;br />&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; color:#191919;&quot;>长数据报文会长时间堵塞端口。&lt;/span>&lt;/p>&lt;/body>">
+            <use xlink:href="#note" transform="translate(416,2)"/>
+        </g>
+    </g>
+    <g ed:parentid="116" ed:width="514" ed:layout="rightmap" transform="matrix(1,0,0,1,920,149)" id="314" ed:height="35.5">
+        <path fill="none" d="M0,35.5L514,35.5" stroke-linejoin="round" stroke="#35d0e6"/>
+        <text class="st58">
+            <tspan style="white-space:pre" x="8" y="15.6">解决：必须保证总是能为高优先级数据报文提供足够的带宽（和缓冲区空间）。标准以</tspan>
+            <tspan style="white-space:pre" x="8" y="30.6">太网目前还无法做到这一点。</tspan>
+        </text>
+    </g>
+    <g ed:parentid="102" ed:width="301" ed:layout="rightmap" transform="matrix(1,0,0,1,661,260)" id="316" ed:height="20.5">
+        <path fill="none" d="M0,20.5L301,20.5" stroke-linejoin="round" stroke="#35d0e6"/>
+        <text class="st58">
+            <tspan style="white-space:pre" x="8" y="15.6">自动化领域2000年研发工业以太网：带宽预留</tspan>
+        </text>
+        <g ed:note="&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; color:#191919; background-color:#ffffff;&quot;>必须保证总是能为高优先级数据报文提供足够的带宽（和缓冲区空间）。标准以太网目前还无法做到这一点。&lt;/span>&lt;/p>&lt;/body>">
+            <use xlink:href="#note" transform="translate(275,2)"/>
+        </g>
+    </g>
+    <g ed:parentid="316" ed:width="531" ed:layout="rightmap" transform="matrix(1,0,0,1,989,189)" id="318" ed:height="50.5">
+        <path fill="none" d="M0,50.5L531,50.5" stroke-linejoin="round" stroke="#35d0e6"/>
+        <text class="st58">
+            <tspan style="white-space:pre" x="9" y="15.6">1.使用以太网作为现场总线传输介质的协议。这些协议要求自己完全控制以太网介质。传</tspan>
+            <tspan style="white-space:pre" x="9" y="30.6">统的TCP/IP通信只能通过现场总线（EtherCAT和POWERLINK）或现场总线(Sercos)分配</tspan>
+            <tspan style="white-space:pre" x="9" y="45.5">的通道进行搭载。现场总线牢牢掌握着带宽控制。</tspan>
+        </text>
+    </g>
+    <g ed:parentid="316" ed:width="552" ed:layout="rightmap" transform="matrix(1,0,0,1,989,245)" id="320" ed:height="50.5">
+        <path fill="none" d="M0,50.5L552,50.5" stroke-linejoin="round" stroke="#35d0e6"/>
+        <text class="st58">
+            <tspan style="white-space:pre" x="9" y="15.6">2.通过以太网上的时间分片程序来保证带宽预留的协议。这里要提一下PROFINET IRT。</tspan>
+            <tspan style="white-space:pre" x="9" y="30.6">IRT支持在运行软实时或背景流量的相同电缆上进行确定性硬实时数据传输。时间片的规</tspan>
+            <tspan style="white-space:pre" x="9" y="45.5">划需要一个</tspan>
+            <tspan style="white-space:pre" class="st60">精确的传输路径时序模型</tspan>
+            <tspan style="white-space:pre">。</tspan>
+        </text>
+        <g ed:note="&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; color:#191919;&quot;>时序模型：PHY、电缆和交换机会影响到数据传输延迟。使用时隙方法（PROFINET IRT和TSN时间感知整形器(TAS)）时必须考虑这一点。&lt;/span>&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; color:#191919;&quot;>这些标准需要特殊的硬件来支持，因此需要使用特殊的ASIC。由于PROFINET RT和EtherNet/IP也是基于嵌入式双端口直通式交换机的，因此它们在这一点上也不例外。诸如ADI的fido5000之类的灵活、基于硬件的多协议解决方案以精简的方式解决了这个问题。&lt;/span>&lt;/p>&lt;/body>">
+            <use xlink:href="#note" transform="translate(526,17)"/>
+        </g>
+    </g>
+    <g ed:parentid="316" ed:width="531" ed:layout="rightmap" transform="matrix(1,0,0,1,989,300)" id="326" ed:height="50.5">
+        <path fill="none" d="M0,50.5L531,50.5" stroke-linejoin="round" stroke="#35d0e6"/>
+        <text class="st58">
+            <tspan style="white-space:pre" x="9" y="15.6">3.基于共享以太网电缆的协议。这些协议使用QoS并非常适用于工厂自动化和过程自动化</tspan>
+            <tspan style="white-space:pre" x="9" y="30.6">应用。PROFINET RT和EtherNet/IP是值得关注的例子。这些协议仅限用于软实时（周期</tspan>
+            <tspan style="white-space:pre" x="9" y="45.5">时间≥1 ms）范围。</tspan>
+        </text>
+    </g>
+    <g ed:parentid="104" ed:width="531" ed:layout="rightmap" transform="matrix(1,0,0,1,661,373)" id="328" ed:height="35.5">
+        <path fill="none" d="M0,35.5L531,35.5" stroke-linejoin="round" stroke="#f68ac8"/>
+        <text class="st61">
+            <tspan style="white-space:pre" x="9" y="15.6">1.TSN使得为所有工业通信创建一个统一的基础成为可能。一旦引入TSN，工业应用中的</tspan>
+            <tspan style="white-space:pre" x="9" y="30.6">ISO七层模型的第1、2、3层将统一。这有可能使可扩展性和性能达到全新的水平。</tspan>
+        </text>
+    </g>
+    <g ed:parentid="104" ed:width="531" ed:layout="rightmap" transform="matrix(1,0,0,1,661,413)" id="330" ed:height="50.5">
+        <path fill="none" d="M0,50.5L531,50.5" stroke-linejoin="round" stroke="#f68ac8"/>
+        <text class="st61">
+            <tspan style="white-space:pre" x="9" y="15.6">2.它还更好地优化拓扑结构，因为现在可以针对各个不同的区段选择与之相适应的数据速</tspan>
+            <tspan style="white-space:pre" x="9" y="30.6">率。无论是1 Gbps、100 Mbps还是10 Mbps，都使用统一的第2层——IEEE802.1/TSN。</tspan>
+        </text>
+    </g>
+    <g ed:parentid="104" ed:width="531" ed:layout="rightmap" transform="matrix(1,0,0,1,661,469)" id="332" ed:height="50.5">
+        <path fill="none" d="M0,50.5L531,50.5" stroke-linejoin="round" stroke="#f68ac8"/>
+        <text class="st61">
+            <tspan style="white-space:pre" x="9" y="15.6">3.它提供了市面上更低成本的网络接口，并且适用于更广泛的市场。毕竟，TSN也能用于</tspan>
+            <tspan style="white-space:pre" x="9" y="30.6">未来的楼宇自动化和汽车行业中。事实上，预计嵌入式TSN解决方案的市场规模将大大超</tspan>
+            <tspan style="white-space:pre" x="9" y="45.5">过所有工业以太网解决方案当前市场的总和。</tspan>
+        </text>
+    </g>
+    <g ed:parentid="101" ed:width="255.842" ed:layout="leftmap" transform="matrix(1,0,0,1,79,95)" id="334" ed:height="118.429">
+        <path fill="#f1af43" d="M0,59.2C0,26.5,57.3,0,127.9,0C198.6,0,255.8,26.5,255.8,59.2C255.8,91.9,198.6,118.4,127.9,118.4C57.3,118.4,0,91.9,0,59.2z" stroke-linejoin="round" stroke="#f1af43"/>
+        <text class="st62">
+            <tspan style="white-space:pre" x="12" y="66.1">传统以太网和工业以太网比较</tspan>
+        </text>
+        <g ed:note="&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#282828; background-color:#ffffff;&quot;>众所周知，通用以太网是以&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#c00000; background-color:#ffffff;&quot;>非同步方式&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#282828; background-color:#ffffff;&quot;>工作的，网络中任何设备都可以随时发送数据，因此在数据的传输时间上既不精准也不确定；同时，广播数据或视频等大规模数据的传输，也会因网络负载的增加而导致通讯的延迟甚至瘫痪。因此，通用以太网技术仅仅是解决了许多设备共享网络基础设施和数据连接的问题，但却并没有很好的实现&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#c00000; background-color:#ffffff;&quot;>设备之间实时、确定和可靠的数据传输。&lt;/span>&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#282828; background-color:#ffffff;&quot;>所以，在工业制造领域长期以来一直迫切需要有一种具备时间确定性的通用以太网技术。然而事实上，这样的需求，却不仅仅是来自于工业制造行业。比如在音频视频领域或汽车行业，多通道数据的同步传输也需要有一种可靠的、具备时间确定性的网络通讯技术，以帮助简化复杂系统中的线路敷设。&lt;/span>&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#282828; background-color:#ffffff;&quot;>IEEE802.1下的协议标准，TSN就仅仅是关于以太网通讯协议模型中的第二层，也就是数据链路层（更确切的说是MAC层）的协议标准。请注意，是一套协议标准，而不是一种协议，就是说TSN将会为以太网协议的MAC层提供一套通用的时间敏感机制，在确保以太网数据通讯的时间确定性的同时，为不同协议网络之间的互操作提供了可能性。&lt;/span>&lt;/p>&lt;/body>">
+            <use xlink:href="#note" transform="translate(227,51)"/>
+        </g>
+    </g>
+    <g ed:parentid="281" ed:width="360" ed:layout="rightmap" transform="matrix(1,0,0,1,902,582)" id="338" ed:height="20.5">
+        <path fill="none" d="M0,20.5L360,20.5" stroke-linejoin="round" stroke="#a284dc"/>
+        <text class="st63">
+            <tspan style="white-space:pre" x="8" y="15.6">精准时间同步协议(PTP）：提供低延迟、低抖动的时钟.</tspan>
+        </text>
+        <g ed:note="&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>定义了整个网络的时钟同步机制。通过定义主时钟选择与协商算法、路径延迟测算与补偿、以及时钟频率匹配与调节的机制，PTP设备交换标准的以太网消息，将网络各个节点的时间都同步到一个共同的&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt; color:#c00000;&quot;>主时钟&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>。作为IEEE 1588协议的一个简化版本，IEEE 802.1AS与1588的最大区别在于PTP是一个完全基于二层网络，非IP路由的协议。与IEEE 1588一样，PTP定义了一个自动协商网络主时钟的方法，即最优主时钟算法（Best Master Clock Algorithm，简称BMCA）。&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt; color:#c00000;&quot;>BMCA&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>定义了底层的协商和信令机制，&lt;/span>&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>用于标识出AVB局域网内的主时钟（Grandmaster）。一旦主时钟被选定，所有局域网节点的PTP设备将以此主时钟为参考值，如果Grandmaster发生变化，整个AVB网络也能通过BMCA在最短时间确定新的主时钟，确保整个网络保持时间同步。802.1AS的核心&lt;/span>&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>在于时间戳机制（Timestamping）。PTP消息在进出具备802.1AS功能的端口时，会根据协议触发对本地实时时钟（RTC）的采样&lt;/span>&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>，将自己的RTC值与来自该端口相对应的主时钟（Master）的信息进行比较，利用路径延迟测算和补偿技术，将其RTC时钟值匹配到&lt;/span>&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>PTP域的时间。当PTP同步机制覆盖了整个AVB局域网，各网络节点设备间就可以通过周期性的PTP消息的交换精确地实现时钟调整和&lt;/span>&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>频率匹配算法。最终，所有的PTP节点都将同步到相同的“挂钟”（Wall Clock）时间，即Grandmaster时间。在最大7跳的网络环境中&lt;/span>&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>，理论上PTP能够保证时钟同步误差在1μs以内。&lt;/span>&lt;/p>&lt;/body>">
+            <use xlink:href="#note" transform="translate(334,2)"/>
+        </g>
+    </g>
+    <g ed:parentid="106" ed:width="184" ed:layout="rightmap" transform="matrix(1,0,0,1,677,658)" id="340" ed:height="20.5">
+        <path fill="none" d="M0,20.5L184,20.5" stroke-linejoin="round" stroke="#a284dc"/>
+        <text class="st63">
+            <tspan style="white-space:pre" x="8" y="15.6">Qbv时间感知调度 </tspan>
+            <tspan style="white-space:pre" class="st60">优先级</tspan>
+        </text>
+        <g ed:note="&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#282828; background-color:#ffffff;&quot;>为优先级较高的时间敏感型关键数据分配特定的时间槽，并且在规定的时间节点，网络中所有节点都必须优先确保重要数据帧的通过；&lt;/span>&lt;/p>&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;  font-family:'Arial';&quot;>&lt;br />&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#282828; background-color:#ffffff;&quot;>也可以这样理解：时间感知调度&lt;/span>&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#c00000; background-color:#ffffff;&quot;>&#x9;---》通过以太网流量&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#282828; background-color:#ffffff;&quot;>划分不同的类来提供&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#c00000; background-color:#ffffff;&quot;>确定性的延迟&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#282828; background-color:#ffffff;&quot;>，这样在特定时间只有一个流量类或一组流量类来访问网路。&lt;/span>&lt;/p>&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;  font-family:'Arial';&quot;>&lt;br />&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#282828; background-color:#ffffff;&quot;>相当于构建了一个受保护的通道，仅由该流量类使用，&lt;/span>&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#282828; background-color:#ffffff;&quot;>&#x9;---》由引入时间感知的&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#c00000; background-color:#ffffff;&quot;>传输门&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#282828; background-color:#ffffff;&quot;>来实现：这些门用于启用单独的传输队列。两个队列：一个队列可以在严格的优先级(最佳努力)的基础上操作，另一个队列可以使用avb应用程序设定一个与帧大小相等的保护袋，。。。保证非关键流量不妨碍关键流量的传输&lt;/span>&lt;/p>&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;  font-family:'Arial';&quot;>&lt;br />&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#282828; background-color:#ffffff;&quot;>Qbv定义了控制TSN交换机出口处发送队列的阀门开关的机制。计划流量所在队列在预定的时间窗口到达后会被放行传输，而在同个时间窗口中其他非计划流量的队列会被阻止传输，因此排除了计划流量被非计划流量阻塞的可能性。这意味着通过每个交换机的延迟是确定的，通过TSN网络的消息延迟可以得到保证。&lt;/span>&lt;/p>&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;  font-family:'Arial';&quot;>&lt;br />&lt;/p>&lt;/body>">
+            <use xlink:href="#note" transform="translate(158,2)"/>
+        </g>
+    </g>
+    <g ed:parentid="106" ed:width="151" ed:layout="rightmap" transform="matrix(1,0,0,1,677,684)" id="342" ed:height="20.5">
+        <path fill="none" d="M0,20.5L151,20.5" stroke-linejoin="round" stroke="#a284dc"/>
+        <text class="st63">
+            <tspan style="white-space:pre" x="8" y="15.6">Qcc网络管理和配置</tspan>
+        </text>
+        <g ed:note="&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#282828; background-color:#ffffff;&quot;>用于实现对网络参数的动态配置，以满足设备节点和数据需求的各种变化&lt;/span>&lt;/p>&lt;/body>">
+            <use xlink:href="#note" transform="translate(125,2)"/>
+        </g>
+    </g>
+    <g ed:parentid="106" ed:width="78" ed:layout="rightmap" transform="matrix(1,0,0,1,677,709)" id="346" ed:height="20.5">
+        <path fill="none" d="M0,20.5L78,20.5" stroke-linejoin="round" stroke="#a284dc"/>
+        <text class="st63">
+            <tspan style="white-space:pre" x="8" y="15.6">帧抢占</tspan>
+        </text>
+        <g ed:note="&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:14pt;&quot;>在高地优先级队列中，如果有大帧的低优先级数据在没有预定时间段开始传输，则这端数据就会形成部分&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#c00000;&quot;>干扰数据&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:14pt;&quot;>(因为高地优先级数据都有对应的槽口和时间片)此时需要一个最大可能的干扰帧打下相等的&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#c00000;&quot;>保护带&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:14pt;&quot;>，保护袋等于低优先级数据带宽，帧抢占&#x9;&lt;/span>&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:14pt;&quot;>&#x9;---》通过将&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:14pt; color:#c00000;&quot;>干扰帧分割&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:14pt;&quot;>成更小的片段来解决问题。因此保护带只需要尽可能大的干扰片段&lt;/span>&lt;/p>&lt;/body>">
+            <use xlink:href="#note" transform="translate(52,2)"/>
+        </g>
+    </g>
+    <g ed:parentid="106" ed:width="208" ed:layout="rightmap" transform="matrix(1,0,0,1,677,735)" id="348" ed:height="20.5">
+        <path fill="none" d="M0,20.5L208,20.5" stroke-linejoin="round" stroke="#a284dc"/>
+        <text class="st63">
+            <tspan style="white-space:pre" x="8" y="15.6">通信路径的选择、保留和容错</tspan>
+        </text>
+        <g ed:note="&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; color:#c00000;&quot;>问题：&lt;/span>&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体';&quot;>&#x9;---》为了解决链路拥塞、故障、断裂等硬件故障造成的数据包丢失。&lt;/span>&lt;/p>&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;  font-family:'宋体';&quot;>&lt;br />&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体';&quot;>解决：在网络中不想交的路径上发送&lt;/span>&lt;span style=&quot; font-family:'宋体'; color:#c00000;&quot;>关键流量的副本：都到达则丢弃副本。&lt;/span>&lt;/p>&lt;/body>">
+            <use xlink:href="#note" transform="translate(182,2)"/>
+        </g>
+    </g>
+    <g ed:parentid="281" ed:width="479" ed:layout="rightmap" transform="matrix(1,0,0,1,902,607)" id="275" ed:height="20.5">
+        <path fill="none" d="M0,20.5L479,20.5" stroke-linejoin="round" stroke="#a284dc"/>
+        <text class="st63">
+            <tspan style="white-space:pre" x="8" y="15.6">流预留协议 SRP：解决网络中AV实时流量与普通异步TCP流量之间的竞争问题</tspan>
+        </text>
+        <g ed:note="&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>解决网络中&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt; color:#c00000;&quot;>AV实时流量&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>与&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt; color:#c00000;&quot;>普通异步TCP流量&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>之间的竞争问题。通过协商机制，在AV流从源设备到不同交换机再到终端设备的整个路径上预留出所需的带宽资源，以提供端到端（End-to-End）的服务质量及延迟保障。&lt;/span>&lt;/p>&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;  font-family:'宋体'; font-size:12pt;&quot;>&lt;br />&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>传统IEEE802网络标准的特性限制了其无法将普通异步流量与时间敏感的流媒体流量进行优先级划分。为了提供有保障的&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt; color:#c00000;&quot;>服务质量（QoS）&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>，&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt; color:#c00000;&quot;>流预留协议（SRP）&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>确保了AV流设备间端到端的带宽可用性。如果所需的路径带宽可用，整个路径上的所有设备（包括交换机和终端设备）将会对此资源进行锁定。SRP利用IEEE802.1ak多注册协议（MultipleRegistrationProtocol，简称MRP）来传递消息，以交换AV流的带宽描述消息并对带宽资源进行预留。符合SRP标准的交换机能够将整个网络可用带宽资源的&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt; color:#c00000;&quot;>75%用于AVB链路&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>，剩下&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt; color:#c00000;&quot;>25%的带宽留给传统的以太网流量&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>。在SRP中，流服务的提供者叫做Talker，流服务的接收者叫做Listener。同一个Talker提供的流服务可同时被多个Listener接收，SRP允许只保障从Talker到Listener的单向数据流流动。只要从Talker到多个Listener中的任意一条路径上的带宽资源能够协商并锁定，Talker就可以开始提供实时AV服务。SRP内部周期性的状态机维护着Talker及Listener的注册信息，能够动态的对网络节点状态进行监测并更新其内部注册信息数据库，以适应网络拓扑的动态改变。无论Talker还是Listener，都可以随时加入或离开AVB的网络，而不会对AVB网络的整体功能和状态造成不可恢复的影响。SRP包含注册（Registration）和预留（Reservation）两部分，Talker对AV流所需带宽资源进行协商预留，Listener则注册并接收所需的AV流。&lt;/span>&lt;/p>&lt;/body>">
+            <use xlink:href="#note" transform="translate(453,2)"/>
+        </g>
+    </g>
+    <g ed:parentid="281" ed:width="530" ed:layout="rightmap" transform="matrix(1,0,0,1,902,633)" id="277" ed:height="20.5">
+        <path fill="none" d="M0,20.5L530,20.5" stroke-linejoin="round" stroke="#a284dc"/>
+        <text class="st63">
+            <tspan style="white-space:pre" x="8" y="15.6">队列及转发协议 Qav：确保传统的异步以太网数据流量不会干扰到AVB的实时音视频流</tspan>
+        </text>
+        <g ed:note="&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>Qav队列及转发协议的作用是确保传统的异步以太网数据流量不会干扰到AVB的实时音视频流。时间敏感的AV流转发采用伪同步模式（Pseudo-synchronous），这个机制依赖于SRP提供沿路经的&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt; color:#c00000;&quot;>预留带宽&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>以及为&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt; color:#c00000;&quot;>PTP提供8Khz的时钟&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>。在每个125us的时隙，包含AVB数据的802.3以太网等时帧（Isochronous）就会被进行转发。同时，为了避免普通数据流量与AVB流量之间的对网络资源的竞争，AVB交换机内对时间敏感的AV流和普通数据流进行了区别处理，将等时帧与异步帧分别进行排队，并且赋予等时帧最高的优先级。在优先保证等时帧传输的条件下，继续提供普通异步传输的服务，这就是Qav的&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt; color:#c00000;&quot;>优先级管理&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>（Prioritize）及&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt; color:#c00000;&quot;>流量整形&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>（Traffic Shaping：即将普通数据流插入到AVb数据流间隙）。尽管终端及交换机设备都需要相应机制保障75%的带宽资源用于AVB应用，但802.1Qav的大部分实现将由AVB交换机负责。&lt;/span>&lt;/p>&lt;/body>">
+            <use xlink:href="#note" transform="translate(504,2)"/>
+        </g>
+    </g>
+    <g ed:parentid="281" ed:width="535" ed:layout="rightmap" transform="matrix(1,0,0,1,902,541)" id="279" ed:height="35.5">
+        <path fill="none" d="M0,35.5L535,35.5" stroke-linejoin="round" stroke="#a284dc"/>
+        <text class="st63">
+            <tspan style="white-space:pre" x="8" y="15.6">QoS（Quality of Service）即服务质量：针对不同用户或者不同数据流采用相应不</tspan>
+            <tspan style="white-space:pre" x="8" y="30.6">同的优先级</tspan>
+        </text>
+        <g ed:note="&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>QoS（Quality of Service）即服务质量，它提供了针对不同用户或者不同数据流采用相应不同的优先级，或者是根据应用程序的要求，保证数据流的性能达到一定的水准。&lt;/span>&lt;/p>&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;  font-family:'宋体'; font-size:12pt;&quot;>&lt;br />&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:12pt; color:#c00000;&quot;>以太网默认的转发机制叫做“BestEffort”&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>(尽力而为)。也就是说当数据包抵达端口后，本着先入先出的原则转发。当网络的流量稀疏，这本不是一个问题。但在实际环境中，大量的数据包极有可能在一瞬间抵达端口。当然，端口可以在一定程度上缓存并延时转发，但我们一方面是不能容忍过大的延时转发，另一方面交换机的物理端口缓存也非常小，不可能有效解决大量数据包瞬间抵达的问题。这种情况下，我们只能对数据中比较重要或是强调实时性的数据包进行优先转发。这就要依靠QoS来对所有的数据包进行分类和标注，并依据规则来进行较为智能的转发。目前市场上较大多数的需要低延时的实时传输采用QoS这一技术。但QoS能否彻底解决网络拥堵的问题吗？&lt;/span>&lt;/p>&lt;/body>">
+            <use xlink:href="#note" transform="translate(509,10)"/>
+        </g>
+    </g>
+    <g ed:parentid="106" ed:width="198" ed:layout="rightmap" transform="matrix(1,0,0,1,677,587)" id="281" ed:height="20.5">
+        <path fill="none" d="M0,20.5L198,20.5" stroke-linejoin="round" stroke="#a284dc"/>
+        <text class="st63">
+            <tspan style="white-space:pre" x="8" y="15.6">AVB：是tsn的一种流量整形</tspan>
+        </text>
+        <g ed:note="&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>什么是AVB?&lt;/span>&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>为了避免带宽重叠，我们所需要做的就是将几个不同的音频流进行流量整形(Traffic shaping)。以达到提高可靠交付的目的。这里大家要注意，我指的是流量整形而不是流量控制(Traffic Control)。&lt;/span>&lt;/p>&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;  font-family:'宋体'; font-size:12pt;&quot;>&lt;br />&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>比如在一个带宽里，有&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt; color:#c00000;&quot;>非实时数据&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>和3个&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt; color:#c00000;&quot;>实时数据流&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>。未经整形的带宽，极易产生重叠.而经过流量整形每个流所占的带宽会在同一个时间节点。所有的非实时流可以见缝插针提高对带宽的占用率。这就是AVB的基本原理。AVB不仅可以对发送端比如各种音视频设备的网络端口进行流量整形，还可以&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt; color:#c00000;&quot;>对交换机中的每个转发节点进行整形&lt;/span>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>。从而确保每个音视频流只占用各自相应的带宽而不对其他数据产生影响。&lt;/span>&lt;/p>&lt;/body>">
+            <use xlink:href="#note" transform="translate(172,2)"/>
+        </g>
+    </g>
+    <g ed:parentid="106" ed:width="104" ed:layout="rightmap" transform="matrix(1,0,0,1,677,760)" id="283" ed:height="20.5">
+        <path fill="none" d="M0,20.5L104,20.5" stroke-linejoin="round" stroke="#a284dc"/>
+        <text class="st63">
+            <tspan style="white-space:pre" x="8" y="15.6">帧剥夺机制</tspan>
+        </text>
+        <g ed:note="&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>时间敏感分组预定发送时刻到达时，可以打断正在发送的其他低优先级的数据帧，最大程度保证时间敏感帧的传输&lt;/span>&lt;/p>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; &quot;>&lt;span style=&quot; font-family:'宋体'; font-size:12pt;&quot;>在线路冲突时，慢车需要在站台上等待和避让快车（可能造成晚点），保证快车的准点通过&lt;/span>&lt;/p>&lt;/body>">
+            <use xlink:href="#note" transform="translate(78,2)"/>
+        </g>
+    </g>
+    <symbol id="plus">
+        <path fill="url(#lg2)" d="M11,6C11,8.8,8.8,11,6,11C3.2,11,1,8.8,1,6C1,3.2,3.2,1,6,1C8.8,1,11,3.2,11,6z"/>
+        <path fill="none" d="M11,6C11,8.8,8.8,11,6,11C3.2,11,1,8.8,1,6C1,3.2,3.2,1,6,1C8.8,1,11,3.2,11,6zM3,6L9,6M6,3L6,9" stroke="#46a000" stroke-width="0.7"/>
+    </symbol>
+    <symbol id="minus">
+        <path fill="url(#lg2)" d="M11,6C11,8.8,8.8,11,6,11C3.2,11,1,8.8,1,6C1,3.2,3.2,1,6,1C8.8,1,11,3.2,11,6z"/>
+        <path fill="none" d="M11,6C11,8.8,8.8,11,6,11C3.2,11,1,8.8,1,6C1,3.2,3.2,1,6,1C8.8,1,11,3.2,11,6zM3,6L9,6" stroke="#46a000" stroke-width="0.7"/>
+    </symbol>
+    <g ed:togtopicid="101" transform="translate(494,395)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="102" transform="translate(635,180)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="104" transform="translate(635,440)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="106" transform="translate(651,655)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="110" transform="translate(244,644)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="112" transform="translate(244,480)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="114" transform="translate(228,300)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="116" transform="translate(894,97)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="178" transform="translate(147,615)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="180" transform="translate(147,674)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="182" transform="translate(76,600)">
+        <use xlink:href="#plus"/>
+    </g>
+    <g ed:togtopicid="184" transform="translate(50,629)">
+        <use xlink:href="#plus"/>
+    </g>
+    <g ed:togtopicid="205" transform="translate(76,659)">
+        <use xlink:href="#plus"/>
+    </g>
+    <g ed:togtopicid="209" transform="translate(50,688)">
+        <use xlink:href="#plus"/>
+    </g>
+    <g ed:togtopicid="223" transform="translate(173,421)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="225" transform="translate(173,480)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="227" transform="translate(173,539)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="241" transform="translate(131,256)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="243" transform="translate(131,330)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="316" transform="translate(963,264)">
+        <use xlink:href="#minus"/>
+    </g>
+    <g ed:togtopicid="281" transform="translate(876,591)">
+        <use xlink:href="#minus"/>
+    </g>
+</svg>
+</div>
+        <div id="copyright">Created With  <a href="https://www.edrawsoft.com/" target="_blank" title="edrawsoft">MindMaster</a></div>
+      </div>
+    </div>
+    <script>eval(atob('dmFyIG11YT13aW5kb3cubmF2aWdhdG9yLnVzZXJBZ2VudDsNCnZhciB1YT0obXVhLmluZGV4T2YoJ3J2OjExJykrbXVhLmluZGV4T2YoJ01TSUUnKSk+PTA7DQpkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnc3ZnLWNvbnRhaW5lcicpLm9uY29udGV4dG1lbnUgPSBmdW5jdGlvbiAoZXZlbnQpIHsNCiAgICBldmVudC5wcmV2ZW50RGVmYXVsdCgpOw0KfQ0KZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3N2Zy1jb250YWluZXInKS5vbm1vdXNlZG93biA9IGZ1bmN0aW9uIChldmVudCkgew0KICAgIGlmKGV2ZW50LndoaWNoID09Myl7DQogICAgICAgIHRoaXMuc3R5bGUuY3Vyc29yID0gJ3BvaW50ZXInOw0KICAgICAgICB0aGlzLm9ubW91c2Vtb3ZlID0gZnVuY3Rpb24gKGV2KSB7DQogICAgICAgICAgICB0aGlzLnNjcm9sbEJ5KC0oZXYubW92ZW1lbnRYKSwgMCk7DQogICAgICAgICAgICB3aW5kb3cuc2Nyb2xsQnkoMCwtKGV2Lm1vdmVtZW50WSkpDQogICAgICAgIH0NCiAgICAgICAgdGhpcy5vbm1vdXNldXAgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICB0aGlzLnN0eWxlLmN1cnNvciA9ICBudWxsOw0KICAgICAgICAgICAgdGhpcy5vbm1vdXNldXAgPSBudWxsOw0KICAgICAgICAgICAgdGhpcy5vbm1vdXNlbW92ZSA9IG51bGw7DQogICAgICAgIH0NCiAgICB9DQp9DQpOdW1iZXIucHJvdG90eXBlLnRvc3VpdHN2Zz1mdW5jdGlvbiAoKSB7DQogICAgdmFyIG51bT10aGlzLnZhbHVlT2YoKTsNCiAgICBpZihudW0lMT09PTApew0KICAgICAgICByZXR1cm4gbnVtKzAuNQ0KICAgIH1lbHNlIHJldHVybiBudW07DQp9Ow0KTnVtYmVyLnByb3RvdHlwZS5wbHVzej1mdW5jdGlvbigpIHsNCiAgICB2YXIgbnVtPXRoaXMudmFsdWVPZigpOw0KICAgIHJldHVybiBudW08MTA/JzAnK251bTpudW07DQp9Ow0KZnVuY3Rpb24gcGFyc2VEYXRlKG51bSkgew0KICAgIHZhciBkYXRlID0gbmV3IERhdGUobnVtKTsNCiAgICB2YXIgWSA9IGRhdGUuZ2V0RnVsbFllYXIoKSArICctJzsNCiAgICB2YXIgTSA9IChkYXRlLmdldE1vbnRoKCkrMSkucGx1c3ooKSArICctJzsNCiAgICB2YXIgRCA9IGRhdGUuZ2V0RGF0ZSgpLnBsdXN6KCkgKyAnICc7DQogICAgdmFyIGggPSBkYXRlLmdldEhvdXJzKCkucGx1c3ooKSArICc6JzsNCiAgICB2YXIgbW0gPSBkYXRlLmdldE1pbnV0ZXMoKS5wbHVzeigpICsgJzonOw0KICAgIHZhciBzID0gZGF0ZS5nZXRTZWNvbmRzKCkucGx1c3ooKTsNCiAgICByZXR1cm4gWStNK0QraCttbStzOw0KfQ0KLy8tLXByZWRlZmluZWQNCi8vY29tbWVudC0tDQp2YXIgY29tbWVudHM9ZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnZz5nW2VkXFw6Y29tbWVudF0nKTsNCmZ1bmN0aW9uIGdldGN3aChwb3B1cCkgew0KICAgIGRvY3VtZW50LmJvZHkuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3N2ZycpWzBdLmFwcGVuZENoaWxkKHBvcHVwKTsNCiAgICB2YXIgdz1wb3B1cC5nZXRCb3VuZGluZ0NsaWVudFJlY3QoKS53aWR0aDsNCiAgICB2YXIgaD1wb3B1cC5nZXRCb3VuZGluZ0NsaWVudFJlY3QoKS5oZWlnaHQ7DQogICAgcmV0dXJuIFt3LGhdDQp9DQpmb3IodmFyIGk9MDtpPGNvbW1lbnRzLmxlbmd0aDtpKyspew0KICAgIHZhciBwb3B1cD1kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywnZycpOw0KICAgIHZhciBwb3B1cFI9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCdyZWN0Jyk7DQogICAgdmFyIGhvdmVyPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCdyZWN0Jyk7DQogICAgdmFyIG9saW5lPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCdyZWN0Jyk7DQogICAgaG92ZXIuc2V0QXR0cmlidXRlKCdmaWxsJywnI2NkY2RmZicpOw0KICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgneCcsJzAnKTsNCiAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3knLCcwJyk7DQogICAgaG92ZXIuc2V0QXR0cmlidXRlKCdoZWlnaHQnLCcxNicpOw0KICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgnd2lkdGgnLCcxNicpOw0KICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgnZmlsbC1vcGFjaXR5JywnMC42Jyk7DQogICAgaG92ZXIuc2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nLGNvbW1lbnRzW2ldLnF1ZXJ5U2VsZWN0b3IoJ3VzZScpLmdldEF0dHJpYnV0ZSgndHJhbnNmb3JtJykpOw0KICAgIGhvdmVyLnN0eWxlLmRpc3BsYXk9J25vbmUnOw0KICAgIGNvbW1lbnRzW2ldLmFwcGVuZENoaWxkKGhvdmVyKTsNCiAgICB2YXIgYT1KU09OLnBhcnNlKGNvbW1lbnRzW2ldLmdldEF0dHJpYnV0ZSgnZWQ6Y29tbWVudCcpKTsNCiAgICB2YXIgaGVpZ2h0PTA7DQogICAgdmFyIGNhcnI9W107DQogICAgZm9yKHZhciBqPTA7ajxhLmxlbmd0aDtqKyspew0KICAgICAgICB2YXIgc3RhbXA9TnVtYmVyKGFbal0uRGF0ZSkqMTAwMDsNCiAgICAgICAgdmFyIHRpbWU9cGFyc2VEYXRlKHN0YW1wKTsNCiAgICAgICAgdmFyIG5hbWU9YVtqXS5OYW1lOw0KICAgICAgICB2YXIgbWVzc2FnZT1hW2pdLk1lc3NhZ2U7DQogICAgICAgIHZhciBtZXNzYWdlQXJyPW1lc3NhZ2Uuc3BsaXQoL1xuLyk7DQogICAgICAgIHZhciBvPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCdnJyk7DQogICAgICAgIHZhciBuPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCd0ZXh0Jyk7DQogICAgICAgIHZhciB0PWRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCd0ZXh0Jyk7DQogICAgICAgIHZhciBtPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCd0ZXh0Jyk7DQogICAgICAgIG4uc2V0QXR0cmlidXRlKCd4Jyw1KTsNCiAgICAgICAgbi5zZXRBdHRyaWJ1dGUoJ3knLDEyKTsNCiAgICAgICAgbi5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCcjMDA2ZWZmJyk7DQogICAgICAgIG4udGV4dENvbnRlbnQ9bmFtZSsnOiAnOw0KICAgICAgICBuLnNldEF0dHJpYnV0ZSgnZm9udC1zaXplJywnMTInKTsNCiAgICAgICAgdC5zZXRBdHRyaWJ1dGUoJ3gnLDIwMCk7DQogICAgICAgIHQuc2V0QXR0cmlidXRlKCd5JywxMik7DQogICAgICAgIHQuc2V0QXR0cmlidXRlKCdmaWxsJywnIzk2OTY5NicpOw0KICAgICAgICB0LnRleHRDb250ZW50PXRpbWU7DQogICAgICAgIHQuc2V0QXR0cmlidXRlKCdmb250LXNpemUnLCcxMCcpOw0KICAgICAgICBtLnNldEF0dHJpYnV0ZSgndHJhbnNmb3JtJywndHJhbnNsYXRlKDIwLDI3KScpOw0KICAgICAgICBtLnNldEF0dHJpYnV0ZSgnZm9udC1zaXplJywnMTInKTsNCiAgICAgICAgZm9yKHZhciBrPTA7azxtZXNzYWdlQXJyLmxlbmd0aDtrKyspew0KICAgICAgICAgICAgdmFyIHRzPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCd0c3BhbicpOw0KICAgICAgICAgICAgdHMuc2V0QXR0cmlidXRlKCd4JywnMCcpOw0KICAgICAgICAgICAgdHMuc2V0QXR0cmlidXRlKCd5JyxrKjE2KTsNCiAgICAgICAgICAgIHRzLnRleHRDb250ZW50PW1lc3NhZ2VBcnJba107DQogICAgICAgICAgICBtLmFwcGVuZENoaWxkKHRzKTsNCiAgICAgICAgfQ0KICAgICAgICBvLnNldEF0dHJpYnV0ZSgndHJhbnNmb3JtJywndHJhbnNsYXRlKDAsJytoZWlnaHQrJyknKTsNCiAgICAgICAgby5hcHBlbmRDaGlsZChuKTsNCiAgICAgICAgby5hcHBlbmRDaGlsZCh0KTsNCiAgICAgICAgby5hcHBlbmRDaGlsZChtKTsNCiAgICAgICAgY2Fyci5wdXNoKG8pOw0KICAgICAgICBwb3B1cC5hcHBlbmRDaGlsZChvKTsNCiAgICAgICAgaGVpZ2h0PShtZXNzYWdlQXJyLmxlbmd0aCsxKSoxNitoZWlnaHQ7DQogICAgfQ0KICAgIHZhciB3YXJyPWdldGN3aChwb3B1cCk7DQogICAgb2xpbmUuc2V0QXR0cmlidXRlKCd4JywnMCcpOw0KICAgIG9saW5lLnNldEF0dHJpYnV0ZSgneScsJzAnKTsNCiAgICB2YXIgb3c9d2FyclswXSsxMC41Ow0KICAgIHZhciBvaD13YXJyWzFdKzM7DQogICAgb2xpbmUuc2V0QXR0cmlidXRlKCd3aWR0aCcsb3cpOw0KICAgIG9saW5lLnNldEF0dHJpYnV0ZSgnaGVpZ2h0JyxvaCk7DQogICAgb2xpbmUuc2V0QXR0cmlidXRlKCdmaWxsJywnd2hpdGUnKTsNCiAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ3N0cm9rZScsJyM2NTY1NjUnKTsNCiAgICBwb3B1cC5hcHBlbmRDaGlsZChvbGluZSk7DQogICAgdmFyIGw9Y2Fyci5sZW5ndGg7DQogICAgd2hpbGUobC0tKXsNCiAgICAgICAgcG9wdXAuYXBwZW5kQ2hpbGQoY2FycltsXSk7DQogICAgfQ0KICAgIHBvcHVwLm9ubW91c2VvdmVyPWZ1bmN0aW9uICgpIHsNCiAgICAgICAgdGhpcy5zdHlsZS5kaXNwbGF5PSdibG9jayc7DQogICAgfTsNCiAgICBwb3B1cC5vbm1vdXNlb3V0PWZ1bmN0aW9uICgpIHsNCiAgICAgICAgdGhpcy5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnOw0KICAgIH07DQogICAgdmFyIGNzPWNvbW1lbnRzW2ldLnF1ZXJ5U2VsZWN0b3IoJ3VzZScpLmdldEF0dHJpYnV0ZSgndHJhbnNmb3JtJykubWF0Y2goL1woKFxTKnxcUypcc1xTKilcKS8pWzFdLnNwbGl0KC8gfCwvKTsNCiAgICB2YXIgcHM9Y29tbWVudHNbaV0ucGFyZW50Tm9kZS5nZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScpOw0KCWNvbnNvbGUubG9nKHBzKTsNCiAgICBpZihwcy5zdWJzdHIoMCwyKSA9PSAndHInKXsNCiAgICAgICAgdmFyIHBwcyA9IHBzLm1hdGNoKC9cKChcUyp8XFMqXHNcUyopXCkvKVsxXS5zcGxpdCgvIHwsLyk7DQogICAgICAgIHZhciB4PXBhcnNlRmxvYXQoY3NbMF0pK3BhcnNlRmxvYXQocHBzWzBdKTsNCiAgICAgICAgdmFyIHk9cGFyc2VGbG9hdChwcHNbMV0pOw0KICAgICAgICB4PXgudG9zdWl0c3ZnKCk7DQogICAgICAgIHk9eS50b3N1aXRzdmcoKTsNCiAgICAgICAgdmFyIHRyc3RyID0gJ3RyYW5zbGF0ZSgnK3grJywnK3krJyknOw0KICAgIH0NCiAgICBlbHNlIGlmKHBzLnN1YnN0cigwLDIpID09ICdtYScpew0KICAgICAgICB2YXIgcHBzID0gcHMubWF0Y2goLyhcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylcKSQvKTsNCiAgICAgICAgdmFyIG1hQXJyID0gW3BhcnNlRmxvYXQocHBzWzFdKSxwYXJzZUZsb2F0KHBwc1szXSkscGFyc2VGbG9hdChwcHNbNV0pLHBhcnNlRmxvYXQocHBzWzddKSxwYXJzZUZsb2F0KHBwc1s5XSkscGFyc2VGbG9hdChwcHNbMTFdKV07DQogICAgICAgIGlmKG1hQXJyWzFdID09IDApew0KICAgICAgICAgICAgdmFyIHggPSBwYXJzZUZsb2F0KGNzWzBdKTsNCiAgICAgICAgICAgIHZhciB5PSBwYXJzZUZsb2F0KGNzWzFdKSsxNjsNCiAgICAgICAgICAgIHZhciB4MSA9IHggKiBtYUFyclswXSArIHkgKiBtYUFyclsyXSArIG1hQXJyWzRdOw0KICAgICAgICAgICAgdmFyIHkxID0geCAqIG1hQXJyWzFdICsgeSAqIG1hQXJyWzNdICsgbWFBcnJbNV07DQogICAgICAgICAgICB4MT14MS50b3N1aXRzdmcoKTsNCiAgICAgICAgICAgIHkxPXkxLnRvc3VpdHN2ZygpOw0KICAgICAgICAgICAgdmFyIHRyc3RyID0gICd0cmFuc2xhdGUoJyt4MSsnLCcreTErJyknOw0KICAgICAgICB9ZWxzZXsNCiAgICAgICAgICAgIHZhciB4ID0gcGFyc2VGbG9hdChjc1swXSkrMTY7DQogICAgICAgICAgICB2YXIgeSA9IHBhcnNlRmxvYXQoY3NbMV0pKzE2Ow0KICAgICAgICAgICAgdmFyIHgxID0geCAqIG1hQXJyWzBdICsgeSAqIG1hQXJyWzJdICsgbWFBcnJbNF07DQogICAgICAgICAgICB2YXIgeTEgPSB4ICogbWFBcnJbMV0gKyB5ICogbWFBcnJbM10gKyBtYUFycls1XTsNCiAgICAgICAgICAgIHggPSBwYXJzZUZsb2F0KGNzWzBdKSsxNjsNCiAgICAgICAgICAgIHkgPSBwYXJzZUZsb2F0KGNzWzFdKTsNCiAgICAgICAgICAgIHZhciB4MiA9IHggKiBtYUFyclswXSArIHkgKiBtYUFyclsyXSArIG1hQXJyWzRdOw0KICAgICAgICAgICAgdmFyIHkyID0geCAqIG1hQXJyWzFdICsgeSAqIG1hQXJyWzNdICsgbWFBcnJbNV07DQogICAgICAgICAgICB2YXIgZnggPSB4MTx4Mj94MS50b3N1aXRzdmcoKTogeDIudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICB2YXIgZnkgPSB5MT55Mj95MS50b3N1aXRzdmcoKTogeTIudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICB2YXIgb2ZmeSA9IE1hdGguYWJzKHkxLXkyKTsNCiAgICAgICAgICAgIHZhciB0cnN0ciA9ICAndHJhbnNsYXRlKCcrZngrJywnK2Z5KycpJzsNCiAgICAgICAgICAgIHBvcHVwUi5zZXRBdHRyaWJ1dGUoJ2hlaWdodCcsb2ZmeS50b1N0cmluZygpKTsNCiAgICAgICAgICAgIHBvcHVwUi5zZXRBdHRyaWJ1dGUoJ3dpZHRoJywnMTYnKTsNCiAgICAgICAgICAgIHBvcHVwUi5zZXRBdHRyaWJ1dGUoJ3knLCgtb2ZmeSkudG9TdHJpbmcoKSk7DQogICAgICAgICAgICBwb3B1cFIuc2V0QXR0cmlidXRlKCdmaWxsJywndHJhbnNwYXJlbnQnKTsNCiAgICAgICAgICAgIHBvcHVwLmFwcGVuZENoaWxkKHBvcHVwUik7DQogICAgICAgIH0NCiAgICB9DQogICAgcG9wdXAuc2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nLHRyc3RyKTsNCiAgICBwb3B1cC5zZXRBdHRyaWJ1dGUoJ2NvbW1lbnQnLCcnKTsNCiAgICBwb3B1cC5zdHlsZS5kaXNwbGF5PSdub25lJzsNCiAgICBwb3B1cC5zZXRBdHRyaWJ1dGUoJ2VkOmNvbW1lbnRpZCcsY29tbWVudHNbaV0ucGFyZW50Tm9kZS5pZCk7DQogICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcignI3N2Zy1jb250YWluZXIgPiBzdmcnKS5hcHBlbmRDaGlsZChwb3B1cCk7DQogICAgY29tbWVudHNbaV0ub25tb3VzZW92ZXI9ZnVuY3Rpb24gKCkgew0KICAgICAgICB2YXIgY29tbWVudGlkPXRoaXMucGFyZW50Tm9kZS5pZDsNCiAgICAgICAgdGhpcy5xdWVyeVNlbGVjdG9yKCdyZWN0Jykuc3R5bGUuZGlzcGxheT0nYmxvY2snOw0KICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6Y29tbWVudGlkPSciK2NvbW1lbnRpZCsiJ11bY29tbWVudF0iKS5zdHlsZS5kaXNwbGF5PSdibG9jayc7DQogICAgfTsNCiAgICBjb21tZW50c1tpXS5vbm1vdXNlb3V0PWZ1bmN0aW9uICgpIHsNCiAgICAgICAgdmFyIGNvbW1lbnRpZD10aGlzLnBhcmVudE5vZGUuaWQ7DQovLyAgICAgICAgd2luZG93LmdldFNlbGVjdGlvbigpLnJlbW92ZUFsbFJhbmdlcygpOw0KICAgICAgICB0aGlzLnF1ZXJ5U2VsZWN0b3IoJ3JlY3QnKS5zdHlsZS5kaXNwbGF5PSdub25lJzsNCiAgICAgICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOmNvbW1lbnRpZD0nIitjb21tZW50aWQrIiddW2NvbW1lbnRdIikuc3R5bGUuZGlzcGxheT0nbm9uZSc7DQogICAgfQ0KfQ0KLy8tLWNvbW1lbnQNCi8vbm90ZS0tDQppZighdWEpew0KICAgIHZhciBub3Rlcz1kb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdnPmdbZWRcXDpub3RlXScpOw0KICAgIGZ1bmN0aW9uIGdldHdoKHMscCkgew0KICAgICAgICB2YXIgbWFpbnA9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZGl2Jyk7DQogICAgICAgIG1haW5wLnN0eWxlLmNzc1RleHQ9czsNCiAgICAgICAgbWFpbnAuc3R5bGUuZGlzcGxheT0naW5saW5lLWJsb2NrJzsNCiAgICAgICAgbWFpbnAuaW5uZXJIVE1MPXA7DQogICAgICAgIGRvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQobWFpbnApOw0KICAgICAgICB2YXIgdz1tYWlucC5jbGllbnRXaWR0aDsNCiAgICAgICAgdmFyIGg9bWFpbnAuY2xpZW50SGVpZ2h0Ow0KICAgICAgICBkb2N1bWVudC5ib2R5LnJlbW92ZUNoaWxkKG1haW5wKTsNCiAgICAgICAgcmV0dXJuIFt3LGhdDQogICAgfQ0KICAgIGZvcih2YXIgaT0wO2k8bm90ZXMubGVuZ3RoO2krKyl7DQogICAgICAgIHZhciBhPW5vdGVzW2ldLmdldEF0dHJpYnV0ZSgnZWQ6bm90ZScpOw0KCQl2YXIgbm90ZUxvY2sgPSBub3Rlc1tpXS5nZXRBdHRyaWJ1dGUoJ2VkOm5vdGVsb2NrJyk7DQogICAgICAgIGlmKG5vdGVMb2NrID09ICd0cnVlJyl7DQogICAgICAgICAgICBjb250aW51ZTsNCiAgICAgICAgfQ0KICAgICAgICB2YXIgbWFpbnA9YS5tYXRjaCgvPHAoW1xTXHNdKik8XC9wPi9nKVswXTsNCiAgICAgICAgdmFyIG1haW5zPWEubWF0Y2goL3N0eWxlPSIoLio/KSIvKVsxXTsNCiAgICAgICAgdmFyIG91dD1kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywnZycpOw0KICAgICAgICB2YXIgb2xpbmU9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsJ3JlY3QnKTsNCiAgICAgICAgdmFyIHBvcHVwPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCdmb3JlaWduT2JqZWN0Jyk7DQogICAgICAgIHZhciBwb3B1cFI9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCdyZWN0Jyk7DQogICAgICAgIHZhciBob3Zlcj1kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywncmVjdCcpOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCcjY2RjZGZmJyk7DQogICAgICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgneCcsJzAnKTsNCiAgICAgICAgaG92ZXIuc2V0QXR0cmlidXRlKCd5JywnMCcpOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ2hlaWdodCcsJzE2Jyk7DQogICAgICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgnd2lkdGgnLCcxNicpOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ2ZpbGwtb3BhY2l0eScsJzAuNicpOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScsbm90ZXNbaV0ucXVlcnlTZWxlY3RvcigndXNlJykuZ2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nKSk7DQogICAgICAgIGhvdmVyLnN0eWxlLmRpc3BsYXk9J25vbmUnOw0KICAgICAgICBub3Rlc1tpXS5hcHBlbmRDaGlsZChob3Zlcik7DQogICAgICAgIHBvcHVwLnN0eWxlLmNzc1RleHQ9bWFpbnM7DQogICAgICAgIHBvcHVwLmlubmVySFRNTD1tYWlucDsNCiAgICAgICAgdmFyIHdoPWdldHdoKG1haW5zLG1haW5wKTsNCiAgICAgICAgcG9wdXAuc2V0QXR0cmlidXRlKCd3aWR0aCcsd2hbMF0rMTYpOw0KICAgICAgICBwb3B1cC5zZXRBdHRyaWJ1dGUoJ2hlaWdodCcsd2hbMV0rOCk7DQogICAgICAgIHBvcHVwLnNldEF0dHJpYnV0ZSgndHJhbnNmb3JtJywndHJhbnNsYXRlKDgsNCknKTsNCiAgICAgICAgcG9wdXAuc3R5bGUudGV4dEFsaWduPSdsZWZ0JzsNCiAgICAgICAgb2xpbmUuc2V0QXR0cmlidXRlKCd4JywnMCcpOw0KICAgICAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ3knLCcwJyk7DQogICAgICAgIG9saW5lLnNldEF0dHJpYnV0ZSgnd2lkdGgnLHdoWzBdKzE2KTsNCiAgICAgICAgb2xpbmUuc2V0QXR0cmlidXRlKCdoZWlnaHQnLHdoWzFdKzgpOw0KICAgICAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ3N0cm9rZScsJyNhMjdhMDAnKTsNCiAgICAgICAgb2xpbmUuc2V0QXR0cmlidXRlKCdmaWxsJywnI2ZmZTc5ZCcpOw0KICAgICAgICBvdXQuYXBwZW5kQ2hpbGQob2xpbmUpOw0KICAgICAgICBvdXQuYXBwZW5kQ2hpbGQocG9wdXApOw0KICAgICAgICBvdXQuc2V0QXR0cmlidXRlKCdub3RlJywnJyk7DQogICAgICAgIG91dC5zdHlsZS5kaXNwbGF5PSdub25lJzsNCiAgICAgICAgb3V0LnNldEF0dHJpYnV0ZSgnZWQ6bm90ZWlkJyxub3Rlc1tpXS5wYXJlbnROb2RlLmlkKTsNCiAgICAgICAgb3V0Lm9ubW91c2VvdmVyPWZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgIHRoaXMuc3R5bGUuZGlzcGxheT0nYmxvY2snOw0KICAgICAgICB9Ow0KICAgICAgICBvdXQub25tb3VzZW91dD1mdW5jdGlvbiAoKSB7DQovLyAgICAgICAgd2luZG93LmdldFNlbGVjdGlvbiA/IHdpbmRvdy5nZXRTZWxlY3Rpb24oKS5yZW1vdmVSYW5nZSh3aW5kb3cuZ2V0U2VsZWN0aW9uKCkucmUpOmRvY3VtZW50LnNlbGVjdGlvbi5lbXB0eSgpOw0KDQogICAgICAgICAgICB0aGlzLnN0eWxlLmRpc3BsYXk9J25vbmUnOw0KICAgICAgICB9Ow0KICAgICAgICB2YXIgY3M9bm90ZXNbaV0ucXVlcnlTZWxlY3RvcigndXNlJykuZ2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nKS5tYXRjaCgvXCgoXFMqfFxTKlxzXFMqKVwpLylbMV0uc3BsaXQoLyB8LC8pOw0KICAgICAgICB2YXIgcHM9bm90ZXNbaV0ucGFyZW50Tm9kZS5nZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScpOw0KICAgICAgICBpZihwcy5zdWJzdHIoMCwyKSA9PSAndHInKXsNCiAgICAgICAgICAgIHZhciBwcHMgPSBwcy5tYXRjaCgvXCgoXFMqfFxTKlxzXFMqKVwpLylbMV0uc3BsaXQoLyB8LC8pOw0KICAgICAgICAgICAgdmFyIHg9cGFyc2VGbG9hdChjc1swXSkrcGFyc2VGbG9hdChwcHNbMF0pOw0KICAgICAgICAgICAgdmFyIHk9cGFyc2VGbG9hdChwcHNbMV0pOw0KICAgICAgICAgICAgeD14LnRvc3VpdHN2ZygpOw0KICAgICAgICAgICAgeT15LnRvc3VpdHN2ZygpOw0KICAgICAgICAgICAgdmFyIHRyc3RyID0gJ3RyYW5zbGF0ZSgnK3grJywnK3krJyknOw0KICAgICAgICB9ZWxzZSBpZihwcy5zdWJzdHIoMCwyKSA9PSAnbWEnKXsNCiAgICAgICAgICAgIHZhciBwcHMgPSBwcy5tYXRjaCgvKFwtP1xkKyhcLlxkKyk/KVtcLCBdKFwtP1xkKyhcLlxkKyk/KVtcLCBdKFwtP1xkKyhcLlxkKyk/KVtcLCBdKFwtP1xkKyhcLlxkKyk/KVtcLCBdKFwtP1xkKyhcLlxkKyk/KVtcLCBdKFwtP1xkKyhcLlxkKyk/KVwpJC8pOw0KICAgICAgICAgICAgdmFyIG1hQXJyID0gW3BhcnNlRmxvYXQocHBzWzFdKSxwYXJzZUZsb2F0KHBwc1szXSkscGFyc2VGbG9hdChwcHNbNV0pLHBhcnNlRmxvYXQocHBzWzddKSxwYXJzZUZsb2F0KHBwc1s5XSkscGFyc2VGbG9hdChwcHNbMTFdKV07DQogICAgICAgICAgICBpZihtYUFyclsxXSA9PSAwKXsNCiAgICAgICAgICAgICAgICB2YXIgeCA9IHBhcnNlRmxvYXQoY3NbMF0pOw0KICAgICAgICAgICAgICAgIHZhciB5ID0gcGFyc2VGbG9hdChjc1sxXSkrMTY7DQogICAgICAgICAgICAgICAgdmFyIHgxID0geCAqIG1hQXJyWzBdICsgeSAqIG1hQXJyWzJdICsgbWFBcnJbNF07DQogICAgICAgICAgICAgICAgdmFyIHkxID0geCAqIG1hQXJyWzFdICsgeSAqIG1hQXJyWzNdICsgbWFBcnJbNV07DQogICAgICAgICAgICAgICAgeDE9eDEudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICAgICAgeTE9eTEudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICAgICAgdmFyIHRyc3RyID0gICd0cmFuc2xhdGUoJyt4MSsnLCcreTErJyknOw0KICAgICAgICAgICAgfWVsc2V7DQogICAgICAgICAgICAgICAgdmFyIHggPSBwYXJzZUZsb2F0KGNzWzBdKSsxNjsNCiAgICAgICAgICAgICAgICB2YXIgeSA9IHBhcnNlRmxvYXQoY3NbMV0pKzE2Ow0KICAgICAgICAgICAgICAgIHZhciB4MSA9IHggKiBtYUFyclswXSArIHkgKiBtYUFyclsyXSArIG1hQXJyWzRdOw0KICAgICAgICAgICAgICAgIHZhciB5MSA9IHggKiBtYUFyclsxXSArIHkgKiBtYUFyclszXSArIG1hQXJyWzVdOw0KICAgICAgICAgICAgICAgIHggPSBwYXJzZUZsb2F0KGNzWzBdKSsxNjsNCiAgICAgICAgICAgICAgICB5ID0gcGFyc2VGbG9hdChjc1sxXSk7DQogICAgICAgICAgICAgICAgdmFyIHgyID0geCAqIG1hQXJyWzBdICsgeSAqIG1hQXJyWzJdICsgbWFBcnJbNF07DQogICAgICAgICAgICAgICAgdmFyIHkyID0geCAqIG1hQXJyWzFdICsgeSAqIG1hQXJyWzNdICsgbWFBcnJbNV07DQogICAgICAgICAgICAgICAgdmFyIGZ4ID0geDE8eDI/eDEudG9zdWl0c3ZnKCk6IHgyLnRvc3VpdHN2ZygpOw0KICAgICAgICAgICAgICAgIHZhciBmeSA9IHkxPnkyP3kxLnRvc3VpdHN2ZygpOiB5Mi50b3N1aXRzdmcoKTsNCiAgICAgICAgICAgICAgICB2YXIgdHJzdHIgPSAgJ3RyYW5zbGF0ZSgnK2Z4KycsJytmeSsnKSc7DQogICAgICAgICAgICAgICAgcG9wdXBSLnNldEF0dHJpYnV0ZSgnaGVpZ2h0JyxvZmZ5LnRvU3RyaW5nKCkpOw0KICAgICAgICAgICAgICAgIHBvcHVwUi5zZXRBdHRyaWJ1dGUoJ3dpZHRoJywnMTYnKTsNCiAgICAgICAgICAgICAgICBwb3B1cFIuc2V0QXR0cmlidXRlKCd5JywoLW9mZnkpLnRvU3RyaW5nKCkpOw0KICAgICAgICAgICAgICAgIHBvcHVwUi5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCd0cmFuc3BhcmVudCcpOw0KICAgICAgICAgICAgICAgIHBvcHVwLmFwcGVuZENoaWxkKHBvcHVwUik7DQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICAgICAgb3V0LnNldEF0dHJpYnV0ZSgndHJhbnNmb3JtJyx0cnN0cik7DQogICAgICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJyNzdmctY29udGFpbmVyID4gc3ZnJykuYXBwZW5kQ2hpbGQob3V0KTsNCiAgICAgICAgbm90ZXNbaV0ub25tb3VzZW92ZXI9ZnVuY3Rpb24gKCkgew0KICAgICAgICAgICAgdmFyIG5vdGVpZD10aGlzLnBhcmVudE5vZGUuaWQ7DQogICAgICAgICAgICB0aGlzLnF1ZXJ5U2VsZWN0b3IoJ3JlY3QnKS5zdHlsZS5kaXNwbGF5PSdibG9jayc7DQogICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6bm90ZWlkPSciK25vdGVpZCsiJ11bbm90ZV0iKS5zdHlsZS5kaXNwbGF5PSdibG9jayc7DQogICAgICAgIH07DQogICAgICAgIG5vdGVzW2ldLm9ubW91c2VvdXQ9ZnVuY3Rpb24gKCkgew0KICAgICAgICAgICAgdmFyIG5vdGVpZD10aGlzLnBhcmVudE5vZGUuaWQ7DQovLyAgICAgICAgd2luZG93LmdldFNlbGVjdGlvbigpLnJlbW92ZUFsbFJhbmdlcygpOw0KICAgICAgICAgICAgdGhpcy5xdWVyeVNlbGVjdG9yKCdyZWN0Jykuc3R5bGUuZGlzcGxheT0nbm9uZSc7DQogICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6bm90ZWlkPSciK25vdGVpZCsiJ11bbm90ZV0iKS5zdHlsZS5kaXNwbGF5PSdub25lJzsNCiAgICAgICAgfQ0KICAgIH0NCn1lbHNlew0KICAgIGNvbnNvbGUubG9nKCfmirHmrYnvvIxJRea1j+iniOWZqOS4jeaUr+aMgW5vdGXop6PmnpDvvIzor7fkvb/nlKjlhbbku5blhoXmoLjmtY/op4jlmajjgILosKLosKLvvIEnKQ0KfQ0KLy8tLW5vdGUNCi8vaHlwZXJsaW5rLS0NCnZhciBsaW5rcz1kb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdnPmdbZWRcXDpoeXBlcmxpbmtdJyk7DQpmdW5jdGlvbiBnZXRtYXhsZW4oYXJyLGJycikgew0KICAgIHZhciBsPTA7DQogICAgdmFyIGxsPTA7DQogICAgZm9yKHZhciBqPTA7ajxhcnIubGVuZ3RoO2orKyl7DQogICAgICAgIHZhciBlPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCd0ZXh0Jyk7DQogICAgICAgIGlmKCFpc05hTihsaW5rYXJyW2pdKSl7DQogICAgICAgICAgICBlLnRleHRDb250ZW50PSdQYWdlLScrYXJyW2pdOw0KICAgICAgICB9ZWxzZXsNCiAgICAgICAgICAgIGUudGV4dENvbnRlbnQ9YXJyW2pdOw0KICAgICAgICB9DQogICAgICAgIGUuc3R5bGUuZm9udFNpemU9JzEycHgnOw0KICAgICAgICBkb2N1bWVudC5ib2R5LmdldEVsZW1lbnRzQnlUYWdOYW1lKCdzdmcnKVswXS5hcHBlbmRDaGlsZChlKTsNCiAgICAgICAgdmFyIGV3PWUuZ2V0QkJveCgpLndpZHRoOw0KICAgICAgICBkb2N1bWVudC5ib2R5LmdldEVsZW1lbnRzQnlUYWdOYW1lKCdzdmcnKVswXS5yZW1vdmVDaGlsZChlKTsNCiAgICAgICAgdmFyIGg9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsJ3RleHQnKTsNCiAgICAgICAgaC50ZXh0Q29udGVudD1icnJbal07DQogICAgICAgIGguc3R5bGUuZm9udFNpemU9JzEycHgnOw0KICAgICAgICBoLnN0eWxlLmZvbnRXZWlnaHQ9J2JvbGQnOw0KICAgICAgICBkb2N1bWVudC5ib2R5LmdldEVsZW1lbnRzQnlUYWdOYW1lKCdzdmcnKVswXS5hcHBlbmRDaGlsZChoKTsNCiAgICAgICAgdmFyIGh3PWguZ2V0QkJveCgpLndpZHRoOw0KICAgICAgICBkb2N1bWVudC5ib2R5LmdldEVsZW1lbnRzQnlUYWdOYW1lKCdzdmcnKVswXS5yZW1vdmVDaGlsZChoKTsNCiAgICAgICAgbD1ldz5odz9ldzpodzsNCiAgICAgICAgbGw9bD5sbD9sOmxsOw0KICAgIH0NCiAgICByZXR1cm4gbGw7DQp9DQpmb3IodmFyIGk9MDtpPGxpbmtzLmxlbmd0aDtpKyspew0KICAgIHZhciBwb3B1cD1kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywnZycpOw0KICAgIHZhciBwb3B1cFI9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCdyZWN0Jyk7DQogICAgdmFyIGhvdmVyPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCdyZWN0Jyk7DQogICAgdmFyIGRlc2NhcnI9W107DQogICAgdmFyIGxpbmthcnI9W107DQogICAgaG92ZXIuc2V0QXR0cmlidXRlKCdmaWxsJywnI2NkY2RmZicpOw0KICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgneCcsJzAnKTsNCiAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3knLCcwJyk7DQogICAgaG92ZXIuc2V0QXR0cmlidXRlKCdoZWlnaHQnLCcxNicpOw0KICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgnd2lkdGgnLCcxNicpOw0KICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgnZmlsbC1vcGFjaXR5JywnMC42Jyk7DQogICAgaG92ZXIuc2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nLGxpbmtzW2ldLnF1ZXJ5U2VsZWN0b3IoJ3VzZScpLmdldEF0dHJpYnV0ZSgndHJhbnNmb3JtJykpOw0KICAgIGhvdmVyLnN0eWxlLmRpc3BsYXk9J25vbmUnOw0KICAgIGxpbmtzW2ldLmFwcGVuZENoaWxkKGhvdmVyKTsNCiAgICAvLyBjb25zb2xlLmxvZyhsaW5rc1tpXS5nZXRBdHRyaWJ1dGUoJ2VkOmh5cGVybGluaycpKTsNCiAgICB2YXIgYT1KU09OLnBhcnNlKGxpbmtzW2ldLmdldEF0dHJpYnV0ZSgnZWQ6aHlwZXJsaW5rJykpOw0KICAgIHZhciBjcz1saW5rc1tpXS5xdWVyeVNlbGVjdG9yKCd1c2UnKS5nZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScpLm1hdGNoKC9cKChcUyp8XFMqXHNcUyopXCkvKVsxXS5zcGxpdCgvIHwsLyk7DQogICAgdmFyIHBzPWxpbmtzW2ldLnBhcmVudE5vZGUuZ2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nKTsNCiAgICBpZihwcy5zdWJzdHIoMCwyKSA9PSAndHInKXsNCiAgICAgICAgdmFyIHBwcyA9IHBzLm1hdGNoKC9cKChcUyp8XFMqXHNcUyopXCkvKVsxXS5zcGxpdCgvIHwsLyk7DQogICAgICAgIHZhciB4PXBhcnNlRmxvYXQoY3NbMF0pK3BhcnNlRmxvYXQocHBzWzBdKTsNCiAgICAgICAgdmFyIHk9cGFyc2VGbG9hdChwcHNbMV0pOw0KICAgICAgICB4PXgudG9zdWl0c3ZnKCk7DQogICAgICAgIHk9eS50b3N1aXRzdmcoKTsNCiAgICAgICAgdmFyIHRyc3RyID0gJ3RyYW5zbGF0ZSgnK3grJywnK3krJyknOw0KICAgIH1lbHNlIGlmKHBzLnN1YnN0cigwLDIpID09ICdtYScpew0KICAgICAgICB2YXIgcHBzID0gcHMubWF0Y2goLyhcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylcKSQvKTsNCiAgICAgICAgdmFyIG1hQXJyID0gW3BhcnNlRmxvYXQocHBzWzFdKSxwYXJzZUZsb2F0KHBwc1szXSkscGFyc2VGbG9hdChwcHNbNV0pLHBhcnNlRmxvYXQocHBzWzddKSxwYXJzZUZsb2F0KHBwc1s5XSkscGFyc2VGbG9hdChwcHNbMTFdKV07DQogICAgICAgIGlmKG1hQXJyWzFdID09IDApew0KICAgICAgICAgICAgdmFyIHggPSBwYXJzZUZsb2F0KGNzWzBdKTsNCiAgICAgICAgICAgIHZhciB5ID0gcGFyc2VGbG9hdChjc1sxXSkrMTY7DQogICAgICAgICAgICB2YXIgeDEgPSB4ICogbWFBcnJbMF0gKyB5ICogbWFBcnJbMl0gKyBtYUFycls0XTsNCiAgICAgICAgICAgIHZhciB5MSA9IHggKiBtYUFyclsxXSArIHkgKiBtYUFyclszXSArIG1hQXJyWzVdOw0KICAgICAgICAgICAgeDE9eDEudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICB5MT15MS50b3N1aXRzdmcoKTsNCiAgICAgICAgICAgIHZhciB0cnN0ciA9ICAndHJhbnNsYXRlKCcreDErJywnK3kxKycpJzsNCiAgICAgICAgfWVsc2V7DQogICAgICAgICAgICB2YXIgeCA9IHBhcnNlRmxvYXQoY3NbMF0pKzE2Ow0KICAgICAgICAgICAgdmFyIHkgPSBwYXJzZUZsb2F0KGNzWzFdKSsxNjsNCiAgICAgICAgICAgIHZhciB4MSA9IHggKiBtYUFyclswXSArIHkgKiBtYUFyclsyXSArIG1hQXJyWzRdOw0KICAgICAgICAgICAgdmFyIHkxID0geCAqIG1hQXJyWzFdICsgeSAqIG1hQXJyWzNdICsgbWFBcnJbNV07DQogICAgICAgICAgICB4ID0gcGFyc2VGbG9hdChjc1swXSkrMTY7DQogICAgICAgICAgICB5ID0gcGFyc2VGbG9hdChjc1sxXSk7DQogICAgICAgICAgICB2YXIgeDIgPSB4ICogbWFBcnJbMF0gKyB5ICogbWFBcnJbMl0gKyBtYUFycls0XTsNCiAgICAgICAgICAgIHZhciB5MiA9IHggKiBtYUFyclsxXSArIHkgKiBtYUFyclszXSArIG1hQXJyWzVdOw0KICAgICAgICAgICAgdmFyIGZ4ID0geDE8eDI/eDEudG9zdWl0c3ZnKCk6IHgyLnRvc3VpdHN2ZygpOw0KICAgICAgICAgICAgdmFyIGZ5ID0geTE+eTI/eTEudG9zdWl0c3ZnKCk6IHkyLnRvc3VpdHN2ZygpOw0KICAgICAgICAgICAgdmFyIHRyc3RyID0gICd0cmFuc2xhdGUoJytmeCsnLCcrZnkrJyknOw0KICAgICAgICAgICAgcG9wdXBSLnNldEF0dHJpYnV0ZSgnaGVpZ2h0JyxvZmZ5LnRvU3RyaW5nKCkpOw0KICAgICAgICAgICAgcG9wdXBSLnNldEF0dHJpYnV0ZSgnd2lkdGgnLCcxNicpOw0KICAgICAgICAgICAgcG9wdXBSLnNldEF0dHJpYnV0ZSgneScsKC1vZmZ5KS50b1N0cmluZygpKTsNCiAgICAgICAgICAgIHBvcHVwUi5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCd0cmFuc3BhcmVudCcpOw0KICAgICAgICAgICAgcG9wdXAuYXBwZW5kQ2hpbGQocG9wdXBSKTsNCiAgICAgICAgfQ0KICAgIH0NCiAgICB2YXIgYWw9YS5sZW5ndGg7DQogICAgZm9yKHZhciBqPTA7ajxhbDtqKyspew0KICAgICAgICBsaW5rYXJyLnB1c2goYVtqXS5saW5rKTsNCiAgICAgICAgZGVzY2Fyci5wdXNoKGFbal0uZGVzYyk7DQogICAgfQ0KICAgIHBvcHVwLnNldEF0dHJpYnV0ZSgndHJhbnNmb3JtJyx0cnN0cik7DQogICAgdmFyIG1heD1nZXRtYXhsZW4obGlua2FycixkZXNjYXJyKTsNCiAgICBmb3IodmFyIGs9MDtrPGFsO2srKyl7DQogICAgICAgIHZhciBjPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCdhJyk7DQogICAgICAgIHZhciBkPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCdyZWN0Jyk7DQogICAgICAgIHZhciBlPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCd0ZXh0Jyk7DQogICAgICAgIHZhciBmPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCd0ZXh0Jyk7DQogICAgICAgIGlmKGlzTmFOKGxpbmthcnJba10pKXsNCiAgICAgICAgICAgIGMuc2V0QXR0cmlidXRlTlMoImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiwgInhsaW5rIiwgImh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiKTsNCiAgICAgICAgICAgIGMuc2V0QXR0cmlidXRlTlMoImh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiLCAiaHJlZiIsIGxpbmthcnJba10pOw0KICAgICAgICAgICAgYy5zZXRBdHRyaWJ1dGUoJ3RhcmdldCcsJ19ibGFuaycpOw0KICAgICAgICAgICAgZS50ZXh0Q29udGVudD1saW5rYXJyW2tdOw0KICAgICAgICB9ZWxzZXsNCiAgICAgICAgICAgIGUudGV4dENvbnRlbnQ9J1BhZ2UtJytsaW5rYXJyW2tdOw0KICAgICAgICAgICAgYy5zZXRBdHRyaWJ1dGVOUygiaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciLCAieGxpbmsiLCAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIpOw0KICAgICAgICAgICAgYy5zZXRBdHRyaWJ1dGVOUygiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIsICJocmVmIiwgIiMiK2xpbmthcnJba10pOw0KICAgICAgICB9DQogICAgICAgIGQuc2V0QXR0cmlidXRlKCd3aWR0aCcsbWF4KzEwKTsNCiAgICAgICAgZC5zZXRBdHRyaWJ1dGUoJ2hlaWdodCcsJzMzJyk7DQogICAgICAgIGQuc2V0QXR0cmlidXRlKCdzdHJva2UnLCcjOTk5OTk5Jyk7DQogICAgICAgIGQuc2V0QXR0cmlidXRlKCdmaWxsJywnd2hpdGUnKTsNCiAgICAgICAgZC5zZXRBdHRyaWJ1dGUoJ3knLDMzKmspOw0KICAgICAgICBmLnRleHRDb250ZW50PWRlc2NhcnJba107DQogICAgICAgIGYuc3R5bGUuZm9udFNpemU9JzEycHgnOw0KICAgICAgICBmLnN0eWxlLmZvbnRXZWlnaHQ9J2JvbGQnOw0KICAgICAgICBmLnNldEF0dHJpYnV0ZSgneCcsNSk7DQogICAgICAgIGYuc2V0QXR0cmlidXRlKCd5JywzMyprKzEyKTsNCiAgICAgICAgZS5zdHlsZS5mb250U2l6ZT0nMTJweCc7DQogICAgICAgIGUuc2V0QXR0cmlidXRlKCd5JywzMyprKzI4KTsNCiAgICAgICAgZS5zZXRBdHRyaWJ1dGUoJ3gnLDUpOw0KICAgICAgICBjLmFwcGVuZENoaWxkKGQpOw0KICAgICAgICBjLmFwcGVuZENoaWxkKGYpOw0KICAgICAgICBjLmFwcGVuZENoaWxkKGUpOw0KICAgICAgICBjLm9ubW91c2VvdmVyPWZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgIHRoaXMucXVlcnlTZWxlY3RvcigncmVjdCcpLnN0eWxlLmZpbGw9JyNlMWUxZmYnDQogICAgICAgIH07DQogICAgICAgIGMub25tb3VzZW91dD1mdW5jdGlvbiAoKSB7DQogICAgICAgICAgICB0aGlzLnF1ZXJ5U2VsZWN0b3IoJ3JlY3QnKS5zdHlsZS5maWxsPSd3aGl0ZScNCiAgICAgICAgfTsNCiAgICAgICAgcG9wdXAuYXBwZW5kQ2hpbGQoYyk7DQogICAgfQ0KICAgIHBvcHVwLnN0eWxlLmRpc3BsYXk9J25vbmUnOw0KICAgIHBvcHVwLnNldEF0dHJpYnV0ZSgnaHlwZXJsaW5rJywnJyk7DQogICAgcG9wdXAuc2V0QXR0cmlidXRlKCdlZDpsaW5raWQnLGxpbmtzW2ldLnBhcmVudE5vZGUuaWQpOw0KICAgIHBvcHVwLm9ubW91c2VvdmVyPWZ1bmN0aW9uICgpIHsNCiAgICAgICAgdGhpcy5zdHlsZS5kaXNwbGF5PSdibG9jayc7DQogICAgfTsNCiAgICBwb3B1cC5vbmNsaWNrPWZ1bmN0aW9uICgpIHsNCiAgICAgICAgdGhpcy5zdHlsZS5kaXNwbGF5PSdub25lJzsNCiAgICB9Ow0KICAgIHBvcHVwLm9ubW91c2VvdXQ9ZnVuY3Rpb24gKCkgew0KICAgICAgICB0aGlzLnN0eWxlLmRpc3BsYXk9J25vbmUnOw0KICAgIH07DQogICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcignI3N2Zy1jb250YWluZXIgPiBzdmcnKS5hcHBlbmRDaGlsZChwb3B1cCk7DQogICAgbGlua3NbaV0ub25tb3VzZW92ZXI9ZnVuY3Rpb24gKCkgew0KICAgICAgICB2YXIgbGlua2lkPXRoaXMucGFyZW50Tm9kZS5pZDsNCiAgICAgICAgdGhpcy5xdWVyeVNlbGVjdG9yKCdyZWN0Jykuc3R5bGUuZGlzcGxheT0nYmxvY2snOw0KICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6bGlua2lkPSciK2xpbmtpZCsiJ11baHlwZXJsaW5rXSIpLnN0eWxlLmRpc3BsYXk9J2Jsb2NrJzsNCiAgICB9DQogICAgbGlua3NbaV0ub25tb3VzZW91dD1mdW5jdGlvbiAoKSB7DQogICAgICAgIHZhciBsaW5raWQ9dGhpcy5wYXJlbnROb2RlLmlkOw0KICAgICAgICB0aGlzLnF1ZXJ5U2VsZWN0b3IoJ3JlY3QnKS5zdHlsZS5kaXNwbGF5PSdub25lJzsNCiAgICAgICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOmxpbmtpZD0nIitsaW5raWQrIiddW2h5cGVybGlua10iKS5zdHlsZS5kaXNwbGF5PSdub25lJzsNCiAgICB9DQp9DQovLy0taHlwZXJsaW5rDQovL2luaXRpYWxpemUtLQ0KdmFyIHNoYXBlPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJ2dbZWRcXDp0b2d0b3BpY2lkXScpOw0KdmFyIG1JZD1kb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdnW2VkXFw6dG9waWN0eXBlXScpOw0KdmFyIGRhdGFUcmVlPXt9Ow0KdmFyIGV4dHJhUmVsYT17fTsNCnZhciBjaGVja0lEPScnOw0KZm9yKHZhciBpPTA7aTxtSWQubGVuZ3RoO2krKyl7DQogICAgdmFyIHR5cGU9bUlkW2ldLmdldEF0dHJpYnV0ZSgnZWQ6dG9waWN0eXBlJyk7DQogICAgdmFyIHNpZD1tSWRbaV0uaWQ7DQogICAgaWYodHlwZSE9PSdjYWxsb3V0Jyl7DQogICAgICAgIGluaXQoc2lkLGRhdGFUcmVlKQ0KICAgIH0NCn0NCmZ1bmN0aW9uIGluaXQoaWQsIG9iaikgew0KICAgIHZhciBjaGlsZHMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJnW2VkXFw6cGFyZW50aWQ9JyIgKyBpZCArICInXTpub3QoW2VkXFw6dG9waWN0eXBlXSkiKTsNCiAgICB2YXIgY2FsbHMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJnW2VkXFw6cGFyZW50aWQ9JyIgKyBpZCArICInXVtlZFxcOnRvcGljdHlwZV0iKTsNCiAgICB2YXIgc3VtbWFyeSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoInBhdGhbZWRcXDpwYXJlbnRpZCo9JyIgKyBpZCArICInXVtlZFxcOnR5cGU9J3N1bW1hcnknXSIpOw0KICAgIHZhciBib3VuZGFyeT0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgicGF0aFtlZFxcOnBhcmVudGlkKj0nIiArIGlkICsgIiddW2VkXFw6dHlwZT0nYm91bmRhcnknXSIpOw0KICAgIHZhciByZWxhZnJvbT1kb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJnW2VkXFw6ZnJvbWlkKj0nIiArIGlkICsgIiddW2VkXFw6dHlwZT0ncmVsYXRpb24nXSIpOw0KICAgIHZhciByZWxhdG89ZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgiZ1tlZFxcOnRvaWQqPSciICsgaWQgKyAiJ11bZWRcXDp0eXBlPSdyZWxhdGlvbiddIik7DQogICAgb2JqWyJtIiArIGlkXSA9IHt9Ow0KICAgIHZhciB0eXBlID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoaWQpLmdldEF0dHJpYnV0ZSgnZWQ6dG9waWN0eXBlJyk7DQogICAgdmFyIGl3PWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGlkKS5nZXRBdHRyaWJ1dGUoJ2VkOndpZHRoJyk7DQogICAgdmFyIGloPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGlkKS5nZXRBdHRyaWJ1dGUoJ2VkOmhlaWdodCcpOw0KICAgIGlmICh0eXBlKSB7DQogICAgICAgIG9ialsibSIgKyBpZF0udHlwZSA9IHR5cGU7DQogICAgfQ0KICAgIGlmKGl3JiZpaCl7DQogICAgICAgIG9ialsibSIgKyBpZF0ud2lkdGggPWl3Ow0KICAgICAgICBvYmpbIm0iICsgaWRdLmhlaWdodCA9aWg7DQogICAgfQ0KICAgIGlmIChyZWxhZnJvbS5sZW5ndGggIT09IDApIHsNCiAgICAgICAgb2JqWyJtIiArIGlkXS5yZWxhZnJvbSA9IHt9Ow0KICAgICAgICBmb3IgKHZhciBpID0gMDsgaSA8IHJlbGFmcm9tLmxlbmd0aDsgaSsrKSB7DQogICAgICAgICAgICB2YXIgaW5kZXhpZCA9IHJlbGFmcm9tW2ldLmlkOw0KICAgICAgICAgICAgdmFyIHRvaWQgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChpbmRleGlkKS5nZXRBdHRyaWJ1dGUoJ2VkOnRvaWQnKTsNCiAgICAgICAgICAgIGlmIChleHRyYVJlbGFbaW5kZXhpZF0gPT09IHVuZGVmaW5lZCkgew0KICAgICAgICAgICAgICAgIGV4dHJhUmVsYVtpbmRleGlkXSA9IHsNCiAgICAgICAgICAgICAgICAgICAgaWQ6IGluZGV4aWQsDQogICAgICAgICAgICAgICAgICAgIGZyb21pZDogaWQsDQogICAgICAgICAgICAgICAgICAgIHRvaWQ6IHRvaWQsDQogICAgICAgICAgICAgICAgICAgIGlzQzogZmFsc2UNCiAgICAgICAgICAgICAgICB9Ow0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgb2JqWyJtIiArIGlkXS5yZWxhZnJvbVtpbmRleGlkXT17fTsNCiAgICAgICAgICAgIG9ialsibSIgKyBpZF0ucmVsYWZyb20uZGlzcGxheT1kb2N1bWVudC5nZXRFbGVtZW50QnlJZChpZCkuc3R5bGUuZGlzcGxheSAhPT0gJ25vbmUnPydibG9jayc6J25vbmUnOw0KICAgICAgICB9DQogICAgfQ0KICAgIGlmIChyZWxhdG8ubGVuZ3RoICE9PSAwKSB7DQogICAgICAgIG9ialsibSIgKyBpZF0ucmVsYXRvID0ge307DQogICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgcmVsYXRvLmxlbmd0aDsgaSsrKSB7DQogICAgICAgICAgICB2YXIgaW5kZXhpZD1yZWxhdG9baV0uaWQ7DQogICAgICAgICAgICB2YXIgZnJvbWlkPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGluZGV4aWQpLmdldEF0dHJpYnV0ZSgnZWQ6ZnJvbWlkJyk7DQogICAgICAgICAgICBpZihleHRyYVJlbGFbaW5kZXhpZF0gPT09IHVuZGVmaW5lZCl7DQogICAgICAgICAgICAgICAgZXh0cmFSZWxhW2luZGV4aWRdPXsNCiAgICAgICAgICAgICAgICAgICAgaWQ6aW5kZXhpZCwNCiAgICAgICAgICAgICAgICAgICAgZnJvbWlkOmZyb21pZCwNCiAgICAgICAgICAgICAgICAgICAgdG9pZDppZCwNCiAgICAgICAgICAgICAgICAgICAgaXNDOmZhbHNlDQogICAgICAgICAgICAgICAgfTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgICAgIG9ialsibSIgKyBpZF0ucmVsYXRvW2luZGV4aWRdPXt9Ow0KICAgICAgICAgICAgb2JqWyJtIiArIGlkXS5yZWxhdG8uZGlzcGxheT1kb2N1bWVudC5nZXRFbGVtZW50QnlJZChpZCkuc3R5bGUuZGlzcGxheSAhPT0gJ25vbmUnPydibG9jayc6J25vbmUnOw0KICAgICAgICB9DQogICAgfQ0KICAgIGlmIChjaGlsZHMubGVuZ3RoICE9PSAwKSB7DQogICAgICAgIG9ialsibSIgKyBpZF0uY2hpbGQgPSB7fTsNCiAgICAgICAgaWYgKGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoImdbZWRcXDp0b2d0b3BpY2lkPSciICsgaWQgKyAiJ10iKSkgew0KICAgICAgICAgICAgLy8gY29uc29sZS5sb2coZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOnRvZ3RvcGljaWQ9JyIgKyBpZCArICInXSIpLmNoaWxkTm9kZXNbMF0uZ2V0QXR0cmlidXRlKCd4bGluazpocmVmJykpOw0KICAgICAgICAgICAgdmFyIHRvZyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoImdbZWRcXDp0b2d0b3BpY2lkPSciICsgaWQgKyAiJ10iKS5nZXRFbGVtZW50c0J5VGFnTmFtZSgndXNlJylbMF0uZ2V0QXR0cmlidXRlKCd4bGluazpocmVmJykuc2xpY2UoMSk7DQogICAgICAgICAgICBvYmpbIm0iICsgaWRdLnRvZ3R5cGUgPSB0b2c7DQogICAgICAgIH0NCiAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBjaGlsZHMubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgICAgIHZhciBjaWQgPSBjaGlsZHNbaV0uaWQ7DQogICAgICAgICAgICBpbml0KGNpZCwgb2JqWyJtIiArIGlkXS5jaGlsZCk7DQogICAgICAgIH0NCiAgICB9DQogICAgaWYgKGNhbGxzLmxlbmd0aCAhPT0gMCkgew0KICAgICAgICBvYmpbIm0iICsgaWRdLmNhbGwgPSB7fTsNCiAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBjYWxscy5sZW5ndGg7IGkrKykgew0KICAgICAgICAgICAgdmFyIGNpZCA9IGNhbGxzW2ldLmlkOw0KICAgICAgICAgICAgaW5pdChjaWQsIG9ialsibSIgKyBpZF0uY2FsbCk7DQogICAgICAgIH0NCiAgICB9DQogICAgaWYgKGJvdW5kYXJ5Lmxlbmd0aCAhPT0gMCkgew0KICAgICAgICBvYmpbIm0iICsgaWRdLmJvdW5kYXJ5ID0ge307DQogICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgYm91bmRhcnkubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgICAgIHZhciBjaWQgPWJvdW5kYXJ5W2ldLmlkOw0KICAgICAgICAgICAgaW5pdChjaWQsIG9ialsibSIgKyBpZF0uYm91bmRhcnkpOw0KICAgICAgICB9DQogICAgfQ0KICAgIGlmIChzdW1tYXJ5Lmxlbmd0aCAhPT0gMCkgew0KICAgICAgICBvYmpbIm0iICsgaWRdLnN1bW1hcnkgPSB7fTsNCiAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBzdW1tYXJ5Lmxlbmd0aDsgaSsrKSB7DQogICAgICAgICAgICB2YXIgY2lkID0gc3VtbWFyeVtpXS5pZDsNCiAgICAgICAgICAgIGluaXQoY2lkLCBvYmpbIm0iICsgaWRdLnN1bW1hcnkpOw0KICAgICAgICB9DQogICAgfQ0KfQ0KLy8tLWluaXRpYWxpemUNCi8vdG9nZ2xlZGlzcGxheS0tDQp2YXIgY2hhaW5BcnI9W107DQpmdW5jdGlvbiBnZXRjaGFpbihpZCl7DQogICAgY2hhaW5BcnIudW5zaGlmdCgnbScraWQpOw0KICAgIHZhciBwYXJlbnQ9ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoaWQpLmdldEF0dHJpYnV0ZSgnZWQ6cGFyZW50aWQnKTsNCiAgICBpZighcGFyZW50KXsNCiAgICAgICAgcmV0dXJuOw0KICAgIH0NCglpZihwYXJlbnQubWF0Y2goL1wsLykpew0KICAgICAgICBwYXJlbnQgPSBwYXJlbnQubWF0Y2goL1xkKyg/PVwsKS8pWzBdDQogICAgfQ0KICAgIGdldGNoYWluKHBhcmVudCk7DQp9DQpmdW5jdGlvbiBnZXRvYmooaWQpIHsNCiAgICBjaGFpbkFycj1bXTsNCiAgICBnZXRjaGFpbihpZCk7DQogICAgdmFyIG1haW49Y2hhaW5BcnJbMF07DQogICAgaWYoY2hhaW5BcnIubGVuZ3RoPjEpew0KICAgICAgICB2YXIgb2JqPWRhdGFUcmVlW21haW5dOw0KICAgICAgICAvLyBjb25zb2xlLmxvZyhjaGFpbkFycik7DQogICAgICAgIGZvcih2YXIgaT0xO2k8Y2hhaW5BcnIubGVuZ3RoO2krKykgew0KICAgICAgICAgICAgdmFyIGEgPSBjaGFpbkFycltpXTsNCiAgICAgICAgICAgIGZvcih2YXIgaj0wO2o8T2JqZWN0LmtleXMob2JqKS5sZW5ndGg7aisrKXsNCiAgICAgICAgICAgICAgICB2YXIgY29iaj0gb2JqW09iamVjdC5rZXlzKG9iailbal1dW2FdOw0KICAgICAgICAgICAgICAgIGlmKGNvYmopew0KICAgICAgICAgICAgICAgICAgICBvYmo9Y29iajsNCiAgICAgICAgICAgICAgICAgICAgY29udGludWUNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICAgICAgcmV0dXJuIG9iag0KICAgIH1lbHNlew0KICAgICAgICB2YXIgb2JqPWRhdGFUcmVlW21haW5dOw0KICAgICAgICByZXR1cm4gb2JqDQogICAgfQ0KDQp9DQpmb3IodmFyIGk9MDtpPHNoYXBlLmxlbmd0aDtpKyspew0KICAgIHNoYXBlW2ldLm9uY2xpY2s9ZnVuY3Rpb24gKCkgew0KICAgICAgICB2YXIgaWQ9TnVtYmVyKHRoaXMuZ2V0QXR0cmlidXRlKCdlZDp0b2d0b3BpY2lkJykpOw0KICAgICAgICB2YXIgb2JqPWdldG9iaihpZCk7DQoNCiAgICAgICAgdmFyIHR5cGU9b2JqLnRvZ3R5cGU9PT0nbWludXMnPydwbHVzJzonbWludXMnOw0KICAgICAgICB2YXIgZGlzcGxheT1vYmoudG9ndHlwZT09PSdtaW51cyc/J25vbmUnOidibG9jayc7DQogICAgICAgIHRoaXMuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3VzZScpWzBdLnNldEF0dHJpYnV0ZSgneGxpbms6aHJlZicsJyMnK3R5cGUpOw0KICAgICAgICBvYmoudG9ndHlwZT10eXBlOw0KICAgICAgICBjaGVja0lEPW9iajsNCg0KICAgICAgICB1dGQob2JqLGlkLGRpc3BsYXkpOw0KICAgICAgICBleHRyYVJlbGFGaW4oKTsNCiAgICB9DQp9DQpmdW5jdGlvbiB1dGQob2JqLGlkLHNob3csb2MpIHsNCg0KICAgIHZhciBwc2hvdz1kb2N1bWVudC5nZXRFbGVtZW50QnlJZChpZCkuc3R5bGUuZGlzcGxheSE9PSAnbm9uZSc/J2Jsb2NrJzonbm9uZSc7DQogICAgaWYgKG9iai5yZWxhZnJvbSl7DQogICAgICAgIGlmKG9iai5yZWxhZnJvbS5kaXNwbGF5IT09IHBzaG93KXsNCiAgICAgICAgICAgIHZhciByZWxhZnJvbXM9T2JqZWN0LmtleXMob2JqLnJlbGFmcm9tKTsNCiAgICAgICAgICAgIHJlbGFmcm9tcy5zcGxpY2UocmVsYWZyb21zLmluZGV4T2YoJ2Rpc3BsYXknKSwxKTsNCiAgICAgICAgICAgIGZvcih2YXIgaz0wO2s8cmVsYWZyb21zLmxlbmd0aDtrKyspew0KICAgICAgICAgICAgICAgIHZhciBkPXJlbGFmcm9tc1trXTsNCiAgICAgICAgICAgICAgICBleHRyYVJlbGFbZF0uaXNDPXRydWU7DQogICAgICAgICAgICB9DQogICAgICAgICAgICBvYmoucmVsYWZyb20uZGlzcGxheSA9IHBzaG93Ow0KICAgICAgICB9DQogICAgfQ0KICAgIGlmIChvYmoucmVsYXRvKXsNCiAgICAgICAgaWYob2JqLnJlbGF0by5kaXNwbGF5IT09IHBzaG93KXsNCiAgICAgICAgICAgIHZhciByZWxhdG9zPU9iamVjdC5rZXlzKG9iai5yZWxhdG8pOw0KICAgICAgICAgICAgcmVsYXRvcy5zcGxpY2UocmVsYXRvcy5pbmRleE9mKCdkaXNwbGF5JyksMSk7DQogICAgICAgICAgICBmb3IodmFyIGs9MDtrPHJlbGF0b3MubGVuZ3RoO2srKyl7DQogICAgICAgICAgICAgICAgdmFyIGQ9cmVsYXRvc1trXTsNCiAgICAgICAgICAgICAgICBleHRyYVJlbGFbZF0uaXNDPXRydWU7DQogICAgICAgICAgICB9DQogICAgICAgICAgICBvYmoucmVsYXRvLmRpc3BsYXkgPSBwc2hvdzsNCiAgICAgICAgfQ0KICAgIH0NCiAgICBpZihvYmouY2FsbCl7DQogICAgICAgIHZhciBjYWxscz1PYmplY3Qua2V5cyhvYmouY2FsbCk7DQogICAgICAgIGlmKGNoZWNrSUQhPT1vYmopew0KICAgICAgICAgICAgZm9yKHZhciBpPTA7aSA8IGNhbGxzLmxlbmd0aDtpKyspew0KICAgICAgICAgICAgICAgIHZhciBhPWNhbGxzW2ldLnNsaWNlKDEpOw0KICAgICAgICAgICAgICAgIHZhciBiPW9iai5jYWxsW2NhbGxzW2ldXTsNCiAgICAgICAgICAgICAgICB2YXIgYz1iLnRvZ3R5cGU7DQogICAgICAgICAgICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoYSkuc3R5bGUuZGlzcGxheT1zaG93Ow0KICAgICAgICAgICAgICAgIGlmIChiLnJlbGFmcm9tJiYhYyl7DQogICAgICAgICAgICAgICAgICAgIGlmKGIucmVsYWZyb20uZGlzcGxheSE9PSBzaG93KXsNCiAgICAgICAgICAgICAgICAgICAgICAgIHZhciByZWxhZnJvbXM9T2JqZWN0LmtleXMoYi5yZWxhZnJvbSk7DQogICAgICAgICAgICAgICAgICAgICAgICByZWxhZnJvbXMuc3BsaWNlKHJlbGFmcm9tcy5pbmRleE9mKCdkaXNwbGF5JyksMSk7DQogICAgICAgICAgICAgICAgICAgICAgICBmb3IodmFyIGs9MDtrPHJlbGFmcm9tcy5sZW5ndGg7aysrKXsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXIgZD1yZWxhZnJvbXNba107DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXh0cmFSZWxhW2RdLmlzQz10cnVlOw0KICAgICAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgICAgICAgICAgYi5yZWxhZnJvbS5kaXNwbGF5ID0gc2hvdzsNCiAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBpZiAoYi5yZWxhdG8mJiFjKXsNCiAgICAgICAgICAgICAgICAgICAgaWYoYi5yZWxhdG8uZGlzcGxheSE9PSBzaG93KXsNCiAgICAgICAgICAgICAgICAgICAgICAgIHZhciByZWxhdG9zPU9iamVjdC5rZXlzKGIucmVsYXRvKTsNCiAgICAgICAgICAgICAgICAgICAgICAgIHJlbGF0b3Muc3BsaWNlKHJlbGF0b3MuaW5kZXhPZignZGlzcGxheScpLDEpOw0KICAgICAgICAgICAgICAgICAgICAgICAgZm9yKHZhciBrPTA7azxyZWxhdG9zLmxlbmd0aDtrKyspew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhciBkPXJlbGF0b3Nba107DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXh0cmFSZWxhW2RdLmlzQz10cnVlOw0KICAgICAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgICAgICAgICAgYi5yZWxhdG8uZGlzcGxheSA9IHNob3c7DQogICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgaWYoYyl7DQogICAgICAgICAgICAgICAgICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoImdbZWRcXDp0b2d0b3BpY2lkPSciK2ErIiddIikuc3R5bGUuZGlzcGxheT1zaG93Ow0KICAgICAgICAgICAgICAgICAgICBpZihjPT09J21pbnVzJyl7DQogICAgICAgICAgICAgICAgICAgICAgICB1dGQoYixhLHNob3cpDQogICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgaWYgKChiLmNhbGx8fGIuYm91bmRhcnl8fGIuc3VtbWFyeSkmJmM9PT0ncGx1cycpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgIHV0ZChiLGEsc2hvdyx0cnVlKQ0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGlmKGIuY2FsbCYmIWMpIHsNCiAgICAgICAgICAgICAgICAgICAgdXRkKGIsYSxzaG93LHRydWUpDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGlmIChiLnN1bW1hcnkmJiFjKSB7DQogICAgICAgICAgICAgICAgICAgIHV0ZChiLGEsc2hvdykNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgaWYgKGIuYm91bmRhcnkmJiFjKSB7DQogICAgICAgICAgICAgICAgICAgIHV0ZChiLGEsc2hvdykNCiAgICAgICAgICAgICAgICB9DQoNCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgIH0NCiAgICBpZihvYmouc3VtbWFyeSl7DQogICAgICAgIHZhciBzdW1tYXJ5cz1PYmplY3Qua2V5cyhvYmouc3VtbWFyeSk7DQogICAgICAgIGlmKChjaGVja0lEIT09b2JqJiYob2JqLnRvZ3R5cGU9PT0nbWludXMnfHwhb2JqLnRvZ3R5cGUpKXx8Y2hlY2tJRD09PW9iail7DQogICAgICAgICAgICBmb3IodmFyIGk9MDtpPHN1bW1hcnlzLmxlbmd0aDtpKyspew0KICAgICAgICAgICAgICAgIHZhciBhPXN1bW1hcnlzW2ldLnNsaWNlKDEpOw0KCQkJCXZhciBvc3AgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChhKS5nZXRBdHRyaWJ1dGUoJ2VkOnBhcmVudGlkJyk7DQogICAgICAgICAgICAgICAgaWYob3NwLm1hdGNoKC9cLC8pKXsNCiAgICAgICAgICAgICAgICAgICAgdmFyIG9zcGEgPSBvc3Auc3BsaXQoJywnKTsNCiAgICAgICAgICAgICAgICAgICAgdmFyIG9zcEw9MDsNCg0KICAgICAgICAgICAgICAgICAgICBmb3IodmFyIGo9MDtqPG9zcGEubGVuZ3RoO2orKyl7DQogICAgICAgICAgICAgICAgICAgICAgICBpZihzaG93ID09ICdub25lJyl7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYoZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQob3NwYVtqXSkuc3R5bGUuZGlzcGxheSAhPSAnbm9uZScpew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBicmVhazsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9ZWxzZXsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3NwTCsrOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgICAgIH1lbHNlew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZihkb2N1bWVudC5nZXRFbGVtZW50QnlJZChhKS5zdHlsZS5kaXNwbGF5ICE9ICdub25lJyl7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBicmVhazsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfWVsc2V7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvc3BMKys7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgIGlmKG9zcEwgIT09IG9zcGEubGVuZ3RoKXsNCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOw0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIHZhciBiPW9iai5zdW1tYXJ5W3N1bW1hcnlzW2ldXTsNCiAgICAgICAgICAgICAgICAvLyBjb25zb2xlLmxvZyhhKTsNCiAgICAgICAgICAgICAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChhKS5zdHlsZS5kaXNwbGF5PXNob3c7DQovLyAgICAgICAgICAgICAgICBpZihjKXsNCi8vICAgICAgICAgICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6dG9ndG9waWNpZD0nIithKyInXSIpLnN0eWxlLmRpc3BsYXk9c2hvdzsNCi8vICAgICAgICAgICAgICAgICAgICBpZihjPT09J21pbnVzJyl7DQovLyAgICAgICAgICAgICAgICAgICAgICAgIHV0ZChiLHNob3cpDQovLyAgICAgICAgICAgICAgICAgICAgfQ0KLy8gICAgICAgICAgICAgICAgICAgIGlmIChiLmNhbGwmJmM9PT0ncGx1cycpIHsNCi8vICAgICAgICAgICAgICAgICAgICAgICAgdXRkKGIsc2hvdyx0cnVlKQ0KLy8gICAgICAgICAgICAgICAgICAgIH0NCi8vICAgICAgICAgICAgICAgIH0NCi8vICAgICAgICAgICAgICAgIGlmKGIuY2FsbCYmIWMpIHsNCi8vICAgICAgICAgICAgICAgICAgICB1dGQoYixzaG93LHRydWUpDQovLyAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgaWYoT2JqZWN0LmtleXMoYikubGVuZ3RoIT09MCl7DQogICAgICAgICAgICAgICAgICAgIHV0ZChiLGEsc2hvdykNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICB9DQogICAgaWYob2JqLmJvdW5kYXJ5KXsNCiAgICAgICAgdmFyIGJvdW5kYXJ5cz1PYmplY3Qua2V5cyhvYmouYm91bmRhcnkpOw0KICAgICAgICBpZihjaGVja0lEIT09b2JqKXsNCiAgICAgICAgICAgIGZvcih2YXIgaT0wO2k8Ym91bmRhcnlzLmxlbmd0aDtpKyspew0KICAgICAgICAgICAgICAgIHZhciBhPWJvdW5kYXJ5c1tpXS5zbGljZSgxKTsNCiAgICAgICAgICAgICAgICB2YXIgYj1vYmouYm91bmRhcnlbYm91bmRhcnlzW2ldXTsNCiAgICAgICAgICAgICAgICAvLyBjb25zb2xlLmxvZyhhKTsNCiAgICAgICAgICAgICAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChhKS5zdHlsZS5kaXNwbGF5PXNob3c7DQovLyAgICAgICAgICAgICAgICBpZihjKXsNCi8vICAgICAgICAgICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6dG9ndG9waWNpZD0nIithKyInXSIpLnN0eWxlLmRpc3BsYXk9c2hvdzsNCi8vICAgICAgICAgICAgICAgICAgICBpZihjPT09J21pbnVzJyl7DQovLyAgICAgICAgICAgICAgICAgICAgICAgIHV0ZChiLHNob3cpDQovLyAgICAgICAgICAgICAgICAgICAgfQ0KLy8gICAgICAgICAgICAgICAgICAgIGlmIChiLmNhbGwmJmM9PT0ncGx1cycpIHsNCi8vICAgICAgICAgICAgICAgICAgICAgICAgdXRkKGIsc2hvdyx0cnVlKQ0KLy8gICAgICAgICAgICAgICAgICAgIH0NCi8vICAgICAgICAgICAgICAgIH0NCi8vICAgICAgICAgICAgICAgIGlmKGIuY2FsbCYmIWMpIHsNCi8vICAgICAgICAgICAgICAgICAgICB1dGQoYixzaG93LHRydWUpDQovLyAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgaWYoT2JqZWN0LmtleXMoYikubGVuZ3RoIT09MCl7DQogICAgICAgICAgICAgICAgICAgIHV0ZChiLGEsc2hvdykNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICB9DQogICAgaWYoIW9jJiZvYmouY2hpbGQpIHsNCiAgICAgICAgdmFyIGNoaWxkcyA9IE9iamVjdC5rZXlzKG9iai5jaGlsZCk7DQogICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgY2hpbGRzLmxlbmd0aDsgaSsrKSB7DQogICAgICAgICAgICB2YXIgYSA9IGNoaWxkc1tpXS5zbGljZSgxKTsNCiAgICAgICAgICAgIHZhciBiID0gb2JqLmNoaWxkW2NoaWxkc1tpXV07DQogICAgICAgICAgICB2YXIgYyA9IGIudG9ndHlwZTsNCiAgICAgICAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGEpLnN0eWxlLmRpc3BsYXkgPSBzaG93Ow0KCQkJdmFyIHRTUGF0aCA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoInBhdGhbZWRcXDp0b3N1cGVyaWQ9JyIrYSsiJ10iKTsNCiAgICAgICAgICAgIGlmKHRTUGF0aCl7DQogICAgICAgICAgICAgICAgdFNQYXRoLnN0eWxlLmRpc3BsYXkgPSBzaG93Ow0KICAgICAgICAgICAgfQ0KCQkJdmFyIG5vdGVUaXAgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6bm90ZXRvPSciK2ErIiddIik7DQogICAgICAgICAgICBpZihub3RlVGlwKXsNCiAgICAgICAgICAgICAgICBub3RlVGlwLnN0eWxlLmRpc3BsYXkgPSBzaG93Ow0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgaWYgKGIucmVsYWZyb20mJiFjKXsNCiAgICAgICAgICAgICAgICBpZihiLnJlbGFmcm9tLmRpc3BsYXkhPT0gc2hvdyl7DQogICAgICAgICAgICAgICAgICAgIHZhciByZWxhZnJvbXM9T2JqZWN0LmtleXMoYi5yZWxhZnJvbSk7DQogICAgICAgICAgICAgICAgICAgIHJlbGFmcm9tcy5zcGxpY2UocmVsYWZyb21zLmluZGV4T2YoJ2Rpc3BsYXknKSwxKTsNCiAgICAgICAgICAgICAgICAgICAgZm9yKHZhciBrPTA7azxyZWxhZnJvbXMubGVuZ3RoO2srKyl7DQogICAgICAgICAgICAgICAgICAgICAgICB2YXIgZD1yZWxhZnJvbXNba107DQogICAgICAgICAgICAgICAgICAgICAgICBleHRyYVJlbGFbZF0uaXNDPXRydWU7DQogICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgYi5yZWxhZnJvbS5kaXNwbGF5ID0gc2hvdzsNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgICAgICBpZiAoYi5yZWxhdG8mJiFjKXsNCiAgICAgICAgICAgICAgICBpZihiLnJlbGF0by5kaXNwbGF5IT09IHNob3cpew0KICAgICAgICAgICAgICAgICAgICB2YXIgcmVsYXRvcz1PYmplY3Qua2V5cyhiLnJlbGF0byk7DQogICAgICAgICAgICAgICAgICAgIHJlbGF0b3Muc3BsaWNlKHJlbGF0b3MuaW5kZXhPZignZGlzcGxheScpLDEpOw0KICAgICAgICAgICAgICAgICAgICBmb3IodmFyIGs9MDtrPHJlbGF0b3MubGVuZ3RoO2srKyl7DQogICAgICAgICAgICAgICAgICAgICAgICB2YXIgZD1yZWxhdG9zW2tdOw0KICAgICAgICAgICAgICAgICAgICAgICAgZXh0cmFSZWxhW2RdLmlzQz10cnVlOw0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgIGIucmVsYXRvLmRpc3BsYXkgPSBzaG93Ow0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIH0NCiAgICAgICAgICAgIGlmIChjKSB7DQogICAgICAgICAgICAgICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOnRvZ3RvcGljaWQ9JyIgKyBhICsgIiddIikuc3R5bGUuZGlzcGxheSA9IHNob3c7DQogICAgICAgICAgICAgICAgaWYgKGMgPT09ICdtaW51cycpIHsNCiAgICAgICAgICAgICAgICAgICAgdXRkKGIsYSxzaG93KQ0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBpZiAoKGIuY2FsbHx8Yi5ib3VuZGFyeXx8Yi5zdW1tYXJ5KSYmYz09PSdwbHVzJykgew0KICAgICAgICAgICAgICAgICAgICB1dGQoYixhLHNob3csdHJ1ZSkNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgICAgICBpZiAoYi5jYWxsJiYhYykgew0KICAgICAgICAgICAgICAgIHV0ZChiLGEsc2hvdyx0cnVlKQ0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgaWYgKGIuc3VtbWFyeSYmIWMpIHsNCiAgICAgICAgICAgICAgICB1dGQoYixhLHNob3cpDQogICAgICAgICAgICB9DQogICAgICAgICAgICBpZiAoYi5ib3VuZGFyeSYmIWMpIHsNCiAgICAgICAgICAgICAgICB1dGQoYixhLHNob3cpDQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICB9DQp9DQoNCmZ1bmN0aW9uIGV4dHJhUmVsYUZpbigpIHsNCiAgICB2YXIgZXh0cmFrZXlzPU9iamVjdC5rZXlzKGV4dHJhUmVsYSk7DQogICAgZm9yKHZhciBpPTA7aTxleHRyYWtleXMubGVuZ3RoO2krKyl7DQogICAgICAgIHZhciBleHRyYU9iaj1leHRyYVJlbGFbZXh0cmFrZXlzW2ldXTsNCiAgICAgICAgaWYoZXh0cmFPYmouaXNDID09PSB0cnVlKXsNCiAgICAgICAgICAgIHZhciBmc2hvdz1kb2N1bWVudC5nZXRFbGVtZW50QnlJZChleHRyYU9iai5mcm9taWQpLnN0eWxlLmRpc3BsYXkgIT09J25vbmUnPyB0cnVlOiBmYWxzZTsNCiAgICAgICAgICAgIHZhciB0c2hvdz1kb2N1bWVudC5nZXRFbGVtZW50QnlJZChleHRyYU9iai50b2lkKS5zdHlsZS5kaXNwbGF5ICE9PSdub25lJz8gdHJ1ZTogZmFsc2U7DQogICAgICAgICAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChleHRyYU9iai5pZCkuc3R5bGUuZGlzcGxheT1mc2hvdyAmJiB0c2hvdz8gJ2Jsb2NrJzogJ25vbmUnOw0KICAgICAgICAgICAgZXh0cmFSZWxhW2V4dHJha2V5c1tpXV0uaXNDID0gZmFsc2U7DQogICAgICAgIH0NCiAgICB9DQp9'))</script>
+  </body>
+</html>
